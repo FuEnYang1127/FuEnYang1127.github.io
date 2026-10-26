@@ -31,9 +31,10 @@ pushing; wait for the owner's approval of that preview before publication.
 - Show all currently selected 2024+ papers. For 2023 and earlier, retain only
   `fl` (ICCV 2023, Efficient Model Personalization) and `dgneurips21` (NeurIPS
   2021, Adversarial Teacher-Student). Remove all other older works from the page,
-  including the 2022 paper. Current active selection totals 13 papers. Unselected
+  including the 2022 paper. Current active selection totals 14 papers. Unselected
   entries live in `content/archive/`; original assets remain available.
-- Scal3R must be first (`featured_order: 1`), ReactVAU second (`featured_order: 2`).
+- TT-VidT is first (`featured_order: 1`), Scal3R second (`featured_order: 2`),
+  and ReactVAU third (`featured_order: 3`), per the owner’s latest ordering.
   Remaining papers sort newest first, preserving input order within each year.
 - Fast-ThinkAct uses the official efficiency teaser showing “9.3× faster”,
   with no comparison video. ThinkAct uses the official representative conceptual

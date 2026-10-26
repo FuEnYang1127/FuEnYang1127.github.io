@@ -63,11 +63,11 @@ Open <http://127.0.0.1:4173>. Stop with Ctrl+C. An occupied port can be changed 
 }
 ```
 
-Use `featured_order` only for explicitly pinned papers: Scal3R = 1 and ReactVAU = 2.
+Use `featured_order` only for explicitly pinned papers: TT-VidT = 1, Scal3R = 2 and ReactVAU = 3.
 Other papers sort by descending year, with stable input ordering within a year.
 For 2023 and earlier, the active list retains only Efficient Model Personalization
 (ICCV 2023) and Adversarial Teacher-Student (NeurIPS 2021). All other earlier work,
-including 2022, is archived. The current list has 13 papers. There is no topic taxonomy or filter UI.
+including 2022, is archived. The current list has 14 papers. There is no topic taxonomy or filter UI.
 `award` is optional. `Fu-En Yang`, including an optional `*`, is automatically bold.
 Author order must match the original paper.
 

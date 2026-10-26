@@ -1,7 +1,72 @@
 [
   {
-    "id": "scal3r",
+    "id": "ttvidt",
     "featured_order": 1,
+    "title": "TT-VidT: Decoupling the Temporal Axis for Efficient Motion-Centric Video Pretraining",
+    "year": 2026,
+    "venue": "NeurIPS",
+    "venue_full": "Conference on Neural Information Processing Systems",
+    "authors": [
+      {
+        "name": "Shih-Ying Yeh",
+        "url": "https://kblueleaf.net/"
+      },
+      {
+        "name": "Daniel Z. Kaplan"
+      },
+      {
+        "name": "Xuehai Wang"
+      },
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Min-Hung Chen",
+        "url": "https://minhungchen.netlify.app/"
+      },
+      {
+        "name": "Shang-Hong Lai",
+        "url": "https://www.cs.nthu.edu.tw/~lai/"
+      }
+    ],
+    "url": "https://kohakublueleaf.github.io/TTVidT/",
+    "description": "A motion-centric video encoder that separates appearance from temporal dynamics using compact motion tokens. Temporal Transfer layers and Diff Compression improve motion-sensitive recognition with about half the encoder FLOPs of VideoMAE, V-JEPA 2, and DisMo.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2609.33419"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.33419"
+      },
+      {
+        "label": "Project",
+        "url": "https://kohakublueleaf.github.io/TTVidT/"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/KohakuBlueleaf/TTVidT"
+      }
+    ],
+    "media": {
+      "image": "assets/media/ttvidt.webp",
+      "width": 1600,
+      "height": 467,
+      "fit": "contain",
+      "source": "https://kohakublueleaf.github.io/TTVidT/static/teaser.jpg",
+      "alt": "TT-VidT teaser comparing independent per-frame encoders, global 3D mixing, and an explicit Temporal Transfer pathway for motion tokens.",
+      "note": "Complete official concept teaser, resized proportionally without cropping."
+    },
+    "sources": {
+      "project": "https://kohakublueleaf.github.io/TTVidT/",
+      "paper": "https://arxiv.org/abs/2609.33419",
+      "venue": "NeurIPS 2026 main track, explicitly stated on the project page and arXiv comments."
+    }
+  },
+  {
+    "id": "scal3r",
+    "featured_order": 2,
     "title": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
     "year": 2026,
     "venue": "ECCV",
@@ -76,7 +141,7 @@
   },
   {
     "id": "reactvau",
-    "featured_order": 2,
+    "featured_order": 3,
     "title": "ReactVAU: A Slow-Fast Decoupled Framework for Streaming Video Anomaly Understanding",
     "year": 2026,
     "venue": "ECCV",
