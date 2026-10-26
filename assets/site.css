@@ -164,7 +164,6 @@ summary { cursor: pointer; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; } }
 .visitor-section { margin-top: 36px; padding-top: 24px; border-top: 1px solid var(--line); text-align: center; }
-.visitor-section h2 { font-size: 20px; margin-bottom: 13px; }
 .visitor-map { display: block; width: fit-content; max-width: 100%; margin: 0 auto 9px; }
 .visitor-map img { display: block; max-width: 100%; height: auto; }
 .visitor-section .text-link { font-size: 13px; }

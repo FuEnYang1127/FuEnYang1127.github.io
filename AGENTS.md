@@ -42,7 +42,8 @@ pushing; wait for the owner's approval of that preview before publication.
   with `https://fuenyang1127.github.io/`. Use the supplied image widget and preserve
   its tracking key in `content/site.json`. It loads eagerly to register page
   visits, at its natural 180 × 114 dimensions. The image and statistics link open
-  the same dashboard in a new tab. Do not restore unavailable ClustrMaps URLs or
+  the same dashboard in a new tab. Show no visible Visitors heading above the
+  map; retain an accessible section label. Do not restore unavailable ClustrMaps URLs or
   use another site's widget. Never fabricate visitor counts or locations.
 
 The Research Interests paragraph (not the opening biography) must begin: “My research focuses on generalizable

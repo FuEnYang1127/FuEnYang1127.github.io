@@ -159,8 +159,7 @@ def render():
     analytics = site.get('analytics')
     visitor_map = ''
     if analytics and analytics.get('enabled', True):
-        visitor_map = f'''<section class="visitor-section" aria-labelledby="visitor-title">
-          <h2 id="visitor-title">Visitors</h2>
+        visitor_map = f'''<section class="visitor-section" aria-label="Visitor statistics">
           <a class="visitor-map" href="{url(analytics['url'])}" target="_blank" rel="noopener noreferrer" aria-label="Open visitor counts and geographic statistics on {esc(analytics['provider'])}">
             <img src="{url(analytics['image'])}" alt="{esc(analytics['alt'])}" width="{int(analytics['width'])}" height="{int(analytics['height'])}" loading="eager" referrerpolicy="no-referrer-when-downgrade">
           </a>
