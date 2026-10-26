@@ -1,7 +1,265 @@
 [
   {
-    "id": "ttvidt",
+    "id": "thinkworld",
     "featured_order": 1,
+    "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+    "year": 2026,
+    "venue": "Preprint",
+    "venue_full": "Preprint; main-conference manuscript under review.",
+    "main_conference_status": "under_review",
+    "robotics": true,
+    "authors": [
+      {
+        "name": "Chaehyun Kim",
+        "url": "https://kchyun.github.io/"
+      },
+      {
+        "name": "Chi-Pin Huang",
+        "url": "https://jasper0314-huang.github.io/"
+      },
+      {
+        "name": "Jisoo Kim",
+        "url": "https://jiiiisoo.github.io/"
+      },
+      {
+        "name": "Min-Hung Chen",
+        "url": "https://minhungchen.netlify.app/"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "https://vllab.ee.ntu.edu.tw/ycwang.html"
+      },
+      {
+        "name": "Seungryong Kim",
+        "url": "https://cvlab.kaist.ac.kr/members/faculty"
+      },
+      {
+        "name": "Fu-En Yang"
+      }
+    ],
+    "url": null,
+    "links": [],
+    "release_hold": true,
+    "pending_links": [
+      "PDF",
+      "arXiv",
+      "Project",
+      "Code",
+      "Model"
+    ],
+    "workshops": [
+      {
+        "label": "RoboWM @ NeurIPS 2026",
+        "url": "https://robowm-ws.github.io/"
+      },
+      {
+        "label": "PTA @ NeurIPS 2026",
+        "url": "https://ptaworkshop.github.io/"
+      }
+    ],
+    "description": "World–action modeling that learns shared motion representations from human and robot videos, imagines their future consequences, and reinforces chain-of-dynamics reasoning by comparing imagined futures with observed outcomes.",
+    "media": {
+      "image": "assets/media/thinkworld-poster.webp",
+      "width": 800,
+      "height": 450,
+      "fit": "contain",
+      "alt": "ThinkWorld real-robot demonstration: opening an oven, retrieving a crown, and placing it on a bear.",
+      "video": "assets/media/thinkworld.mp4",
+      "poster": "assets/media/thinkworld-poster.webp",
+      "poster_width": 800,
+      "poster_height": 450,
+      "source": "Owner-provided release-held project reference; URL retained only in private local maintenance notes.",
+      "video_source": "owner-reference:thinkworld:official-teaser",
+      "video_note": "Official teaser excerpt from 12 to 31 seconds. Silent H.264, 800 × 450, 24 fps; full frame and source playback speed preserved. Source URL is on release hold.",
+      "caption": "Official demo · 7× speed"
+    },
+    "sources": {
+      "metadata": "Owner-provided private project reference; project and paper URLs are on release hold.",
+      "workshop_acceptance": "Owner confirmed RoboWM and PTA at NeurIPS 2026.",
+      "main_conference_status": "Owner confirmed main-conference submission is under review."
+    }
+  },
+  {
+    "id": "dreamx",
+    "featured_order": 2,
+    "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+    "year": 2026,
+    "venue": "Preprint",
+    "venue_full": "Preprint; main-conference manuscript under review.",
+    "main_conference_status": "under_review",
+    "robotics": true,
+    "authors": [
+      {
+        "name": "Jisoo Kim*",
+        "url": "https://jiiiisoo.github.io/"
+      },
+      {
+        "name": "Chaehyun Kim*",
+        "url": "https://kchyun.github.io/"
+      },
+      {
+        "name": "Junsu Kim",
+        "url": "https://jjunos0926.github.io/"
+      },
+      {
+        "name": "Jiho Park",
+        "url": "http://jiho314.github.io/"
+      },
+      {
+        "name": "Seongchan Kim",
+        "url": "https://scholar.google.com/citations?user=2DpCfdcAAAAJ&hl=ko"
+      },
+      {
+        "name": "Eunbeen Hong",
+        "url": "https://scholar.google.com/citations?user=gEWFjpAAAAAJ&hl=en"
+      },
+      {
+        "name": "Soowon Son",
+        "url": "https://soow0n.github.io/"
+      },
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Seungryong Kim",
+        "url": "https://cvlab.kaist.ac.kr/members/faculty"
+      }
+    ],
+    "url": null,
+    "links": [],
+    "release_hold": true,
+    "pending_links": [
+      "PDF",
+      "arXiv",
+      "Project",
+      "Code"
+    ],
+    "description": "A universal latent action space extracted from a pretrained video diffusion model, capturing motion shared across humans and robots for cross-embodiment video transfer, human-to-robot action transfer, and compact robot policy learning.",
+    "media": {
+      "image": "assets/media/dreamx-poster.webp",
+      "width": 800,
+      "height": 450,
+      "fit": "contain",
+      "alt": "DreamX demonstrates cross-embodiment motion transfer and robot execution of actions inferred from human videos.",
+      "video": "assets/media/dreamx.mp4",
+      "poster": "assets/media/dreamx-poster.webp",
+      "poster_width": 800,
+      "poster_height": 450,
+      "source": "Owner-provided release-held project reference; URL retained only in private local maintenance notes.",
+      "video_source": "owner-reference:dreamx:official-teaser",
+      "video_note": "Official teaser excerpt from 42 to 52 seconds. Silent H.264, 800 × 450, 24 fps; full frame and source playback speed preserved. Source URL is on release hold.",
+      "caption": "Official teaser · demos sped up"
+    },
+    "sources": {
+      "metadata": "Owner-provided private project reference; project and paper URLs are on release hold.",
+      "main_conference_status": "Owner confirmed main-conference submission is under review and arXiv posting is forthcoming."
+    }
+  },
+  {
+    "id": "physcap",
+    "featured_order": 3,
+    "title": "PhysCaP: Grounding Code-as-Policy Agent with Physics-Informed Exploration",
+    "year": 2026,
+    "venue": "Preprint",
+    "venue_full": "Preprint; main-conference manuscript under review.",
+    "main_conference_status": "under_review",
+    "robotics": true,
+    "authors": [
+      {
+        "name": "Chen-Yu Lin*",
+        "url": "https://tripled0232.github.io/"
+      },
+      {
+        "name": "Jing-Wen Chen*",
+        "url": "https://joycelyn-chen.github.io/"
+      },
+      {
+        "name": "Hsueh-En Chang"
+      },
+      {
+        "name": "Hung-An Chen"
+      },
+      {
+        "name": "Sheng-Hsun Chang"
+      },
+      {
+        "name": "Chi-Pin Huang",
+        "url": "https://jasper0314-huang.github.io/"
+      },
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Min-Hung Chen",
+        "url": "https://minhungchen.netlify.app/"
+      },
+      {
+        "name": "Yi-Ting Chen",
+        "url": "https://sites.google.com/site/yitingchen0524/home"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "https://vllab.ee.ntu.edu.tw/ycwang.html"
+      },
+      {
+        "name": "Shao-Hua Sun",
+        "url": "https://shaohua0116.github.io/"
+      }
+    ],
+    "url": "https://physcap.github.io/",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2608.21031"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2608.21031"
+      },
+      {
+        "label": "Project",
+        "url": "https://physcap.github.io/"
+      }
+    ],
+    "pending_links": [
+      "Code"
+    ],
+    "workshops": [
+      {
+        "label": "Robot Learning @ NeurIPS 2026",
+        "url": "https://www.robot-learning.ml/2026/"
+      },
+      {
+        "label": "Agentic Robotics @ CoRL 2026",
+        "url": "https://agentic-robotics-workshop.github.io/"
+      }
+    ],
+    "description": "A physics-informed code-as-policy agent that actively measures hidden object properties through robot interaction, combining mass and stiffness estimation with multi-agent planning for targeted exploration and reliable manipulation.",
+    "media": {
+      "image": "assets/media/physcap.webp",
+      "width": 1600,
+      "height": 1145,
+      "fit": "contain",
+      "alt": "PhysCaP robot demonstrations that explore object mass and stiffness through physical interaction.",
+      "video": "assets/media/physcap.mp4",
+      "poster": "assets/media/physcap-poster.webp",
+      "poster_width": 800,
+      "poster_height": 450,
+      "source": "https://physcap.github.io/static/images/teaser.jpg",
+      "video_source": "https://physcap.github.io/static/videos/hero.mp4",
+      "video_note": "Complete 16.8-second official hero demo; sped up in the source, which does not specify a uniform factor. Silent H.264, 800 × 450, 24 fps; full frame preserved.",
+      "caption": "Official demo · sped up"
+    },
+    "sources": {
+      "project": "https://physcap.github.io/",
+      "paper": "https://arxiv.org/abs/2608.21031",
+      "workshop_acceptance": "Project page explicitly lists the 8th Robot Learning Workshop at NeurIPS 2026 and the Workshop on Agentic Robotics at CoRL 2026.",
+      "main_conference_status": "Owner confirmed main-conference submission is under review."
+    }
+  },
+  {
+    "id": "ttvidt",
+    "featured_order": 4,
     "title": "TT-VidT: Decoupling the Temporal Axis for Efficient Motion-Centric Video Pretraining",
     "year": 2026,
     "venue": "NeurIPS",
@@ -66,7 +324,7 @@
   },
   {
     "id": "scal3r",
-    "featured_order": 2,
+    "featured_order": 5,
     "title": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
     "year": 2026,
     "venue": "ECCV",
@@ -141,7 +399,7 @@
   },
   {
     "id": "reactvau",
-    "featured_order": 3,
+    "featured_order": 6,
     "title": "ReactVAU: A Slow-Fast Decoupled Framework for Streaming Video Anomaly Understanding",
     "year": 2026,
     "venue": "ECCV",

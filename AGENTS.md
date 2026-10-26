@@ -41,11 +41,24 @@ pushing; wait for the owner's approval of that preview before publication.
 - Show all currently selected 2024+ papers. For 2023 and earlier, retain only
   `fl` (ICCV 2023, Efficient Model Personalization) and `dgneurips21` (NeurIPS
   2021, Adversarial Teacher-Student). Remove all other older works from the page,
-  including the 2022 paper. Current active selection totals 14 papers. Unselected
+  including the 2022 paper. Current active selection totals 17 papers. Unselected
   entries live in `content/archive/`; original assets remain available.
-- TT-VidT is first (`featured_order: 1`), Scal3R second (`featured_order: 2`),
-  and ReactVAU third (`featured_order: 3`), per the owner’s latest ordering.
+- Pin ThinkWorld = 1, DreamX = 2, PhysCaP = 3, TT-VidT = 4, Scal3R = 5,
+  ReactVAU = 6, per the owner's latest ordering.
   Remaining papers sort newest first, preserving input order within each year.
+- ThinkWorld, DreamX and PhysCaP are robotics work and their main-conference
+  submissions are under review. Workshop acceptances must be shown as workshops,
+  separate from main venues. ThinkWorld: RoboWM and PTA at NeurIPS 2026. PhysCaP:
+  Robot Learning Workshop at NeurIPS 2026 and Agentic Robotics at CoRL 2026.
+- ThinkWorld and DreamX have `release_hold: true`: titles are plain text and
+  `links` must remain empty. Do not publish their project, PDF, arXiv or code URLs,
+  including in public content metadata or provenance. Reference URLs are held in
+  private local notes outside the repo; the owner will supply release links later.
+  All three new entries use the owner-requested “Preprint 2026” badge, with
+  workshop acceptances displayed separately.
+- The owner approved this three-paper preview and authorized publication.
+  ThinkWorld and DreamX's resource release holds remain in force: approval to
+  publish the cards does not authorize publishing their held project/paper URLs.
 - GR00T N1.6 uses the full official 26.9-second policy rollout as a silent
   800 × 450 MP4, with its matching poster, natural aspect ratio, play/pause
   controls and on-screen caption identifying the source’s 2.5× playback speed.

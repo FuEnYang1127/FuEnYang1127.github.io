@@ -63,17 +63,32 @@ Open <http://127.0.0.1:4173>. Stop with Ctrl+C. An occupied port can be changed 
 }
 ```
 
-Use `featured_order` only for explicitly pinned papers: TT-VidT = 1, Scal3R = 2 and ReactVAU = 3.
+Use `featured_order` only for explicitly pinned papers: ThinkWorld = 1, DreamX = 2, PhysCaP = 3,
+TT-VidT = 4, Scal3R = 5 and ReactVAU = 6.
 Other papers sort by descending year, with stable input ordering within a year.
 For 2023 and earlier, the active list retains only Efficient Model Personalization
 (ICCV 2023) and Adversarial Teacher-Student (NeurIPS 2021). All other earlier work,
-including 2022, is archived. The current list has 14 papers. There are no topic filter controls.
+including 2022, is archived. The current list has 17 papers. There are no topic filter controls.
 `award` is optional. `Fu-En Yang`, including an optional `*`, is automatically bold.
 Author order must match the original paper.
 
+A publication may intentionally have `url: null` and `links: []`; its title then
+renders without a hyperlink, and no empty resource bar appears. For ThinkWorld
+and DreamX, keep `release_hold: true` until the owner supplies their release links.
+The build rejects links on release-held entries. Keep their reference URLs out
+of public content/provenance and use private local notes instead. On release,
+clear the hold, set the public title URL and add verified resources. ThinkWorld,
+DreamX and PhysCaP currently share the owner-requested `Preprint 2026` badge;
+update the venue when the owner confirms a main-conference acceptance.
+`workshops` is a list of `{label, url}` records, rendered on a separate, clearly
+labelled line. Workshop acceptance does not imply main-conference acceptance.
+The owner approved publication of these three entries. The resource holds on
+ThinkWorld and DreamX remain in force until the owner supplies release links.
+
 Set `"robotics": true` on robotics-related publications to add the consistent
 outlined-star **Robot Intelligence** highlight next to the conference label.
-The current entries are Fast-ThinkAct, GR00T N1.6 and ThinkAct. Omit the field for
+The current entries are ThinkWorld, DreamX, PhysCaP, Fast-ThinkAct, GR00T N1.6
+and ThinkAct. Omit the field for
 other work; it does not change the publication order. Use the same marker for
 future robotics papers instead of creating new badge variants. The owner has
 approved this styling.

@@ -77,9 +77,13 @@ def publication(pub, site):
     ident = pub['id']
     if not re.fullmatch(r'[a-z0-9-]+', ident):
         raise ValueError(f'Invalid publication ID: {ident}')
-    for field in ('title', 'year', 'venue', 'authors', 'description', 'links'):
+    for field in ('title', 'year', 'venue', 'authors', 'description'):
         if not pub.get(field):
             raise ValueError(f'{ident}: missing {field}')
+    if not isinstance(pub.get('links'), list):
+        raise ValueError(f'{ident}: links must be a list; use an empty list for unreleased resources')
+    if pub.get('release_hold') and (pub.get('url') or pub['links']):
+        raise ValueError(f'{ident}: release-held paper and project resources must stay unlinked')
     media = pub['media']
     if not media.get('alt') or media.get('fit', 'contain') != 'contain':
         raise ValueError(f'{ident}: scientific figures must have alt text and fit=contain')
@@ -95,7 +99,10 @@ def publication(pub, site):
             authors.append(anchor(name, author['url']))
         else:
             authors.append(esc(name))
-    badge = f'<span class="badge">{esc(pub["venue"])} {pub["year"]}</span>'
+    venue_label = f'{pub["venue"]} {pub["year"]}'
+    if pub.get('venue_note'):
+        venue_label += f' · {pub["venue_note"]}'
+    badge = f'<span class="badge">{esc(venue_label)}</span>'
     if pub.get('award'):
         badge += f'<span class="badge badge-award">{esc(pub["award"])}</span>'
     if 'robotics' in pub and not isinstance(pub['robotics'], bool):
@@ -121,6 +128,12 @@ def publication(pub, site):
         buttons = f'<span class="demo-note">{esc(media["caption"])}</span>' + buttons
     caption = f'<figcaption>{buttons}</figcaption>' if video else ''
     links = ''.join(anchor(link['label'], link['url'], 'paper-link') for link in pub['links'])
+    resources = f'<nav class="paper-links" aria-label="Resources for {esc(pub["title"])}">{links}</nav>' if links else ''
+    title = anchor(pub['title'], pub['url']) if pub.get('url') else esc(pub['title'])
+    workshops = ''
+    if pub.get('workshops'):
+        workshop_links = ' · '.join(anchor(item['label'], item['url']) for item in pub['workshops'])
+        workshops = f'<p class="paper-workshops"><span>Workshops:</span> {workshop_links}</p>'
     return f'''<article class="publication" id="{ident}" aria-labelledby="title-{ident}">
         <figure class="paper-figure">
           <div class="media-stage">
@@ -131,10 +144,11 @@ def publication(pub, site):
         </figure>
         <div class="paper-copy">
           <div class="paper-meta">{badge}</div>
-          <h3 id="title-{ident}">{anchor(pub['title'], pub['url'])}</h3>
+          <h3 id="title-{ident}">{title}</h3>
           <p class="authors">{', '.join(authors)}</p>
+          {workshops}
           <p class="paper-description">{esc(pub['description'])}</p>
-          <nav class="paper-links" aria-label="Resources for {esc(pub['title'])}">{links}</nav>
+          {resources}
         </div>
       </article>'''
 
