@@ -67,9 +67,16 @@ Use `featured_order` only for explicitly pinned papers: TT-VidT = 1, Scal3R = 2 
 Other papers sort by descending year, with stable input ordering within a year.
 For 2023 and earlier, the active list retains only Efficient Model Personalization
 (ICCV 2023) and Adversarial Teacher-Student (NeurIPS 2021). All other earlier work,
-including 2022, is archived. The current list has 14 papers. There is no topic taxonomy or filter UI.
+including 2022, is archived. The current list has 14 papers. There are no topic filter controls.
 `award` is optional. `Fu-En Yang`, including an optional `*`, is automatically bold.
 Author order must match the original paper.
+
+Set `"robotics": true` on robotics-related publications to add the consistent
+outlined-star **Robot Intelligence** highlight next to the conference label.
+The current entries are Fast-ThinkAct, GR00T N1.6 and ThinkAct. Omit the field for
+other work; it does not change the publication order. Use the same marker for
+future robotics papers instead of creating new badge variants. The owner has
+approved this styling.
 
 For video, add `media.video`, `media.poster`, `poster_width`, `poster_height`,
 `video_source` and `video_note`. Prefer short silent MP4/H.264 excerpts with complete
@@ -85,7 +92,9 @@ Use Title Case for section headings.
 
 Biography, research interests and news accept only inline `<a href>`, `<strong>`,
 `<em>` and `<br>` markup. All other fields are plain text. News uses `YYYY-MM` dates;
-`news_visible` controls the initial list before the native archive disclosure.
+`news_visible_since: "2026-02"` keeps February 2026 and newer news expanded; only
+earlier dates go inside the native Earlier news disclosure. This date cutoff
+also keeps future updates visible automatically.
 
 ## Fonts and visitors
 

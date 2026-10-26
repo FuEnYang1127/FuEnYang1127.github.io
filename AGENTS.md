@@ -25,6 +25,12 @@ pushing; wait for the owner's approval of that preview before publication.
   underlines / marker backgrounds. Use Title Case for section headings. No
   “What I work on” heading or research-theme cards.
 - One publication list, **no topic classification or filter buttons**.
+- The owner wants robotics work highlighted consistently, including future papers.
+  The owner-approved design uses a green outlined-star “Robot Intelligence” badge beside
+  the venue for Fast-ThinkAct (`fast-thinkact`), GR00T N1.6 (`gr16`) and ThinkAct
+  (`thinkact`). Set `"robotics": true` on future robotics entries to reuse it.
+  This marker does not change publication ordering or conference / award badges.
+  Apply the same treatment to future robotics entries.
 - Links to other pages, author sites, papers, project pages, code, CV/PDFs and
   enlarged figures open a new tab with `target="_blank" rel="noopener noreferrer"`.
   Same-page `#` navigation stays in the current tab; email uses `mailto:` normally.
@@ -57,6 +63,10 @@ robotics in the following text, with three concise bold highlights and no marker
 background. The opening biography should give a substantive summary of predictive models,
 embodied reasoning and robot learning without repeating the same paragraph.
 Do not change the focus back to generic physical AI wording.
+
+News uses `news_visible_since: "2026-02"`: February 2026 and all newer updates
+remain expanded. Only earlier dates go into Earlier news. Preserve this date
+boundary rather than a fixed item count, so future news stays visible.
 
 News: the X-REASON invited talk (September 8, 2026) must be the second update,
 following the existing September 2026 paper news. Its title, provided by the owner,

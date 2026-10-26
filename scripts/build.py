@@ -98,6 +98,13 @@ def publication(pub, site):
     badge = f'<span class="badge">{esc(pub["venue"])} {pub["year"]}</span>'
     if pub.get('award'):
         badge += f'<span class="badge badge-award">{esc(pub["award"])}</span>'
+    if 'robotics' in pub and not isinstance(pub['robotics'], bool):
+        raise ValueError(f'{ident}: robotics must be true or false')
+    if pub.get('robotics'):
+        badge += ('<span class="badge badge-robotics">'
+                  '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">'
+                  '<path d="m12 3 2.78 5.63L21 9.54l-4.5 4.39 1.06 6.19L12 17.2l-5.56 2.92 1.06-6.19L3 9.54l6.22-.91Z"/>'
+                  '</svg>Robot Intelligence</span>')
     video = ''
     buttons = anchor('View figure ↗', media['image'], 'figure-link',
                      f'aria-label="View research figure for {esc(pub["title"])}"')
@@ -149,11 +156,15 @@ def render():
         raise ValueError('featured_order must be a unique positive integer')
     pubs.sort(key=lambda p: (p.get('featured_order', 100000), -p['year']))
     news.sort(key=lambda n: n['date'], reverse=True)
-    visible = site['news_visible']
+    visible_since = site['news_visible_since']
+    if not re.fullmatch(r'\d{4}-(0[1-9]|1[0-2])', visible_since):
+        raise ValueError('news_visible_since must be a YYYY-MM date')
+    visible_news = [item for item in news if item['date'] >= visible_since]
+    archived_news = [item for item in news if item['date'] < visible_since]
     older_news = ''
-    if news[visible:]:
+    if archived_news:
         older_news = f'''<details class="news-archive"><summary>Earlier news <span aria-hidden="true">+</span></summary>
-          <ul class="news-list">{news_rows(news[visible:])}</ul></details>'''
+          <ul class="news-list">{news_rows(archived_news)}</ul></details>'''
     buttons = ''.join(anchor(item['label'], item['url'], 'button') for item in site['links'])
     scholarly = next(item['url'] for item in site['links'] if item['label'] == 'Google Scholar')
     analytics = site.get('analytics')
@@ -184,7 +195,7 @@ def render():
         portrait=url(site['portrait']), portrait_url=url(site['url']+site['portrait']),
         bio=''.join(f'<p>{rich(p)}</p>' for p in site['bio']),
         social_buttons=buttons, research_interest=rich(site['research_interest']),
-        news=news_rows(news[:visible]), older_news=older_news,
+        news=news_rows(visible_news), older_news=older_news,
         scholar=url(scholarly),
         publications='\n'.join(publication(p,site) for p in pubs),
         background='\n'.join(blocks), visitor_map=visitor_map, structured_data=json.dumps(person,ensure_ascii=False).replace('<','\\u003c')

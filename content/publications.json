@@ -255,7 +255,8 @@
       "source": "https://jasper0314-huang.github.io/fast-thinkact/static/images/teaser.png",
       "alt": "Fast-ThinkAct teaser: six continuous reasoning tokens replace approximately 250 textual tokens; the efficiency plot highlights 9.3× faster inference.",
       "original": "images/fast_thinkact.png"
-    }
+    },
+    "robotics": true
   },
   {
     "id": "gr16",
@@ -288,7 +289,8 @@
       "original": "images/gr16.png",
       "width": 696,
       "height": 534
-    }
+    },
+    "robotics": true
   },
   {
     "id": "thinkact",
@@ -341,7 +343,8 @@
       "source": "https://jasper0314-huang.github.io/thinkact-vla/static/images/teaser.png",
       "alt": "ThinkAct overview: action-aligned visual feedback reinforces reasoning for few-shot adaptation, long-horizon planning, and self-correction.",
       "original": "images/thinkact.png"
-    }
+    },
+    "robotics": true
   },
   {
     "id": "longsplat",

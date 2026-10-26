@@ -88,6 +88,8 @@ summary { cursor: pointer; }
 .paper-meta { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 7px; }
 .badge { display: inline-flex; align-items: center; padding: 5px 11px; border-radius: 999px; background: var(--badge-bg); color: var(--badge-ink); font-size: 13.12px; font-weight: 700; line-height: 19.68px; }
 .badge-award { color: var(--award-ink); background: var(--award-bg); }
+.badge-robotics { gap: 5px; padding: 4px 10px; color: #426c00; background: #f2f9e7; border: 1px solid #d7eab4; }
+.badge-robotics svg { width: 14px; height: 14px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .paper-copy h3 { font-size: 20.48px; font-weight: 600; line-height: 23.04px; margin-bottom: 9px; }
 .paper-copy h3 a { color: var(--ink); }
 .authors { font-size: 16px; font-weight: 400; line-height: 24px; color: var(--muted); margin-bottom: 10px; }
