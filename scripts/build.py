@@ -117,6 +117,8 @@ def publication(pub, site):
     image = f'<img src="{url(poster)}" alt="{esc(media["alt"])}" width="{width}" height="{height}" loading="lazy" decoding="async">'
     if not video:
         image = f'<a class="figure-open" href="{url(media["image"])}" {link_target(media["image"])} aria-label="Enlarge research figure for {esc(pub["title"])}">{image}</a>'
+    if video and media.get('caption'):
+        buttons = f'<span class="demo-note">{esc(media["caption"])}</span>' + buttons
     caption = f'<figcaption>{buttons}</figcaption>' if video else ''
     links = ''.join(anchor(link['label'], link['url'], 'paper-link') for link in pub['links'])
     return f'''<article class="publication" id="{ident}" aria-labelledby="title-{ident}">

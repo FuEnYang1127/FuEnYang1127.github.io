@@ -283,12 +283,19 @@
     ],
     "media": {
       "image": "assets/media/gr16.webp",
-      "alt": "GR00T N1.6: An Improved Open Foundation Model for Generalist Humanoid Robots — complete research figure.",
+      "alt": "Official GR00T N1.6 policy rollout: a humanoid robot moves a cart and reaches toward shelves.",
       "fit": "contain",
       "source": "https://fuenyang1127.github.io/images/gr16.png",
       "original": "images/gr16.png",
       "width": 696,
-      "height": 534
+      "height": 534,
+      "video": "assets/media/gr16.mp4",
+      "poster": "assets/media/gr16-poster.webp",
+      "poster_width": 800,
+      "poster_height": 450,
+      "video_source": "https://research.nvidia.com/labs/gear/n1_6/hsl/oneshot_2.5x_mited.m3u8",
+      "video_note": "Complete official 26.9-second policy rollout, retaining its original 2.5× playback speed. Silent H.264 at 800 × 450 and 24 fps; full frame preserved without cropping.",
+      "caption": "Official demo · 2.5× speed"
     },
     "robotics": true
   },

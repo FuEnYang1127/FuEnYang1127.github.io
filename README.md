@@ -81,7 +81,9 @@ approved this styling.
 For video, add `media.video`, `media.poster`, `poster_width`, `poster_height`,
 `video_source` and `video_note`. Prefer short silent MP4/H.264 excerpts with complete
 frames and a static poster. Videos fetch only when visible, support pause, and
-respect reduced motion / data saving. Fast-ThinkAct and ThinkAct deliberately use
+respect reduced motion / data saving. Use `media.caption` to identify an official
+playback speed when relevant. GR00T N1.6 uses the complete official rollout with
+a visible 2.5× speed note, and retains its original image. Fast-ThinkAct and ThinkAct deliberately use
 static official teasers, per the owner's preference. Clicking a static figure opens
 its full-size version. Publications use separate rounded cards inspired by the
 reference site, with desktop thumbnails capped at 350px wide / 220px high. Never

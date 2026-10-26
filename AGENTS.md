@@ -46,6 +46,10 @@ pushing; wait for the owner's approval of that preview before publication.
 - TT-VidT is first (`featured_order: 1`), Scal3R second (`featured_order: 2`),
   and ReactVAU third (`featured_order: 3`), per the owner’s latest ordering.
   Remaining papers sort newest first, preserving input order within each year.
+- GR00T N1.6 uses the full official 26.9-second policy rollout as a silent
+  800 × 450 MP4, with its matching poster, natural aspect ratio, play/pause
+  controls and on-screen caption identifying the source’s 2.5× playback speed.
+  Preserve lazy loading, reduced-motion behavior and the original static image.
 - Fast-ThinkAct uses the official efficiency teaser showing “9.3× faster”,
   with no comparison video. ThinkAct uses the official representative conceptual
   teaser about reinforced reasoning, adaptation, planning and self-correction.

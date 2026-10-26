@@ -81,7 +81,8 @@ summary { cursor: pointer; }
 .demo-video { display: block; position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; opacity: 0; background: #fff; }
 .media-stage.is-playing .demo-video { opacity: 1; }
 .media-stage.is-playing > img { opacity: 0; }
-.paper-figure figcaption { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 7px; }
+.paper-figure figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 4px 12px; margin-top: 7px; }
+.demo-note { flex-basis: 100%; color: var(--muted); font-size: 11px; line-height: 1.4; text-align: center; }
 .figure-link, .demo-toggle { font-size: 12px; color: var(--utility-link); font-weight: 500; line-height: 1.5; }
 .figure-link { margin-left: auto; }
 .demo-toggle { border: 0; background: transparent; padding: 3px 0; text-align: left; }
