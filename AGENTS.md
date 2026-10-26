@@ -19,6 +19,10 @@ pushing; wait for the owner's approval of that preview before publication.
   template.” Link to https://github.com/jonbarron/website. Do not add the Sifei Liu
   design-inspiration credit back.
 - CV uses the same neutral button treatment as the other profile links.
+- The profile role line is emphasized: 18px / weight 600 on desktop, at least
+  16px on phones. NVIDIA Research uses dark green `#315e16` and weight 700.
+  On phones, place role and affiliation on separate lines and hide the separator;
+  do not shrink this text at 320px. Keep the original body / paper typography.
 - No FY logo or initials in the header. Keep Fu-En's portrait on the right,
   circular and flush, with no padded white frame or decorative card.
 - One **Research Interests** paragraph with concise bold key phrases, no colored
