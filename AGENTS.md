@@ -15,6 +15,9 @@ pushing; wait for the owner's approval of that preview before publication.
 - The owner requested the original NVIDIA favicon again. Use the existing
   `images/nvidia.png`, with the correct PNG MIME type and a content-hashed URL.
   Do not replace it with another custom robot or agent icon.
+- The visible footer credit is only “Original homepage based on Jon Barron’s
+  template.” Link to https://github.com/jonbarron/website. Do not add the Sifei Liu
+  design-inspiration credit back.
 - CV uses the same neutral button treatment as the other profile links.
 - No FY logo or initials in the header. Keep Fu-En's portrait on the right,
   circular and flush, with no padded white frame or decorative card.
