@@ -1,0 +1,732 @@
+[
+  {
+    "id": "scal3r",
+    "featured_order": 1,
+    "title": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
+    "year": 2026,
+    "venue": "ECCV",
+    "venue_full": "European Conference on Computer Vision",
+    "authors": [
+      {
+        "name": "Chin-Yang Lin",
+        "url": "https://linjohnss.github.io/"
+      },
+      {
+        "name": "Yang-Che Sun",
+        "url": "https://tw.linkedin.com/in/yang-che-sun-6b9341282"
+      },
+      {
+        "name": "Cheng Sun",
+        "url": "https://sunset1995.github.io/"
+      },
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Min-Hung Chen",
+        "url": "https://minhungchen.netlify.app/"
+      },
+      {
+        "name": "Yen-Yu Lin",
+        "url": "https://sites.google.com/site/yylinweb/"
+      },
+      {
+        "name": "Wei-Chen Chiu",
+        "url": "https://walonchiu.github.io/"
+      },
+      {
+        "name": "Yu-Lun Liu",
+        "url": "https://yulunalexliu.github.io/"
+      }
+    ],
+    "url": "https://linjohnss.github.io/scal3r/",
+    "description": "Scalable online 3D reconstruction from long videos using multi-reference relative pose queries and online pose-graph optimization, with only about 1% additional parameters on a frozen backbone.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2609.04201"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.04201"
+      },
+      {
+        "label": "Project",
+        "url": "https://linjohnss.github.io/scal3r/"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/NVlabs/scal3r"
+      }
+    ],
+    "media": {
+      "image": "assets/media/scal3r.webp",
+      "width": 1600,
+      "height": 900,
+      "fit": "contain",
+      "source": "https://linjohnss.github.io/scal3r/static/images/teaser_cover.jpg",
+      "alt": "Scal3R: online 3D reconstruction and estimated trajectory on the KITTI 04 driving sequence.",
+      "video": "assets/media/scal3r.mp4",
+      "poster": "assets/media/scal3r-poster.webp",
+      "poster_width": 640,
+      "poster_height": 360,
+      "video_source": "https://linjohnss.github.io/scal3r/static/videos/data/ours_cut3r_kitti/seq04.mp4",
+      "video_note": "Silent loop from the official KITTI 04 online reconstruction; complete frame preserved."
+    }
+  },
+  {
+    "id": "reactvau",
+    "featured_order": 2,
+    "title": "ReactVAU: A Slow-Fast Decoupled Framework for Streaming Video Anomaly Understanding",
+    "year": 2026,
+    "venue": "ECCV",
+    "venue_full": "European Conference on Computer Vision",
+    "authors": [
+      {
+        "name": "Chia-Hui Chen",
+        "url": "http://www.linkedin.com/in/家輝-陳-9ba48026a"
+      },
+      {
+        "name": "Shih-Ying Yeh",
+        "url": "https://kblueleaf.net/"
+      },
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Min-Hung Chen",
+        "url": "https://minhungchen.netlify.app/"
+      },
+      {
+        "name": "Shang-Hong Lai",
+        "url": "https://www.cs.nthu.edu.tw/~lai/"
+      }
+    ],
+    "url": "https://huiyuiui.github.io/ReactVAU/",
+    "description": "A slow–fast framework for real-time streaming video anomaly understanding. Lightweight detection preserves anomalous evidence in persistent memory and triggers heavyweight reasoning only for suspicious events.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2609.07941"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.07941"
+      },
+      {
+        "label": "Project",
+        "url": "https://huiyuiui.github.io/ReactVAU/"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/huiyuiui/ReactVAU-code"
+      }
+    ],
+    "media": {
+      "image": "assets/media/reactvau.webp",
+      "width": 1650,
+      "height": 862,
+      "fit": "contain",
+      "source": "https://huiyuiui.github.io/ReactVAU/static/images/teaser.png",
+      "alt": "ReactVAU teaser: fast streaming anomaly detection preserves important evidence in persistent memory and selectively activates slow reasoning."
+    }
+  },
+  {
+    "id": "fast-thinkact",
+    "title": "Fast-ThinkAct: Efficient Vision-Language-Action Reasoning via Verbalizable Latent Planning",
+    "year": 2026,
+    "venue": "CVPR",
+    "venue_full": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "authors": [
+      {
+        "name": "Chi-Pin Huang",
+        "url": "https://jasper0314-huang.github.io/"
+      },
+      {
+        "name": "Yunze Man",
+        "url": "https://yunzeman.github.io/"
+      },
+      {
+        "name": "Zhiding Yu",
+        "url": "https://chrisding.github.io/"
+      },
+      {
+        "name": "Min-Hung Chen",
+        "url": "https://minhungchen.netlify.app/"
+      },
+      {
+        "name": "Jan Kautz",
+        "url": "https://jankautz.com/"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "http://vllab.ee.ntu.edu.tw/ycwang.html"
+      },
+      {
+        "name": "Fu-En Yang"
+      }
+    ],
+    "url": "https://jasper0314-huang.github.io/fast-thinkact/",
+    "description": "Compressing textual chain-of-thought into compact, verbalizable latents for efficient vision-language-action reasoning, long-horizon planning, and real-time robotic control.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2601.09708"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2601.09708"
+      },
+      {
+        "label": "Project",
+        "url": "https://jasper0314-huang.github.io/fast-thinkact/"
+      }
+    ],
+    "media": {
+      "image": "assets/media/fast-thinkact.webp",
+      "width": 1650,
+      "height": 989,
+      "fit": "contain",
+      "source": "https://jasper0314-huang.github.io/fast-thinkact/static/images/teaser.png",
+      "alt": "Fast-ThinkAct teaser: six continuous reasoning tokens replace approximately 250 textual tokens; the efficiency plot highlights 9.3× faster inference.",
+      "original": "images/fast_thinkact.png"
+    }
+  },
+  {
+    "id": "gr16",
+    "title": "GR00T N1.6: An Improved Open Foundation Model for Generalist Humanoid Robots",
+    "year": 2025,
+    "venue": "NVIDIA Tech Blog",
+    "venue_full": "NVIDIA Tech Blog",
+    "authors": [
+      {
+        "name": "GR00T Team"
+      }
+    ],
+    "url": "https://research.nvidia.com/labs/gear/gr00t-n1_6/",
+    "description": "An open vision-language-action foundation model for generalist humanoid robots, connecting language and visual observations to manipulation skills across embodiments.",
+    "links": [
+      {
+        "label": "Project",
+        "url": "https://research.nvidia.com/labs/gear/gr00t-n1_6/"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/NVIDIA/Isaac-GR00T/tree/main"
+      }
+    ],
+    "media": {
+      "image": "assets/media/gr16.webp",
+      "alt": "GR00T N1.6: An Improved Open Foundation Model for Generalist Humanoid Robots — complete research figure.",
+      "fit": "contain",
+      "source": "https://fuenyang1127.github.io/images/gr16.png",
+      "original": "images/gr16.png",
+      "width": 696,
+      "height": 534
+    }
+  },
+  {
+    "id": "thinkact",
+    "title": "ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning",
+    "year": 2025,
+    "venue": "NeurIPS",
+    "venue_full": "Neural Information Processing Systems (NeurIPS)",
+    "authors": [
+      {
+        "name": "Chi-Pin Huang",
+        "url": "https://jasper0314-huang.github.io/"
+      },
+      {
+        "name": "Yueh-Hua Wu",
+        "url": "https://kristery.github.io/"
+      },
+      {
+        "name": "Min-Hung Chen",
+        "url": "https://minhungchen.netlify.app/"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "http://vllab.ee.ntu.edu.tw/ycwang.html"
+      },
+      {
+        "name": "Fu-En Yang"
+      }
+    ],
+    "url": "https://jasper0314-huang.github.io/thinkact-vla/",
+    "description": "A reasoning VLA framework that thinks before acting. Reinforced visual latent planning enables long-horizon manipulation, few-shot adaptation, and self-correction.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2507.16815"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2507.16815"
+      },
+      {
+        "label": "Project",
+        "url": "https://jasper0314-huang.github.io/thinkact-vla/"
+      }
+    ],
+    "media": {
+      "image": "assets/media/thinkact.webp",
+      "width": 1459,
+      "height": 497,
+      "fit": "contain",
+      "source": "https://jasper0314-huang.github.io/thinkact-vla/static/images/teaser.png",
+      "alt": "ThinkAct overview: action-aligned visual feedback reinforces reasoning for few-shot adaptation, long-horizon planning, and self-correction.",
+      "original": "images/thinkact.png"
+    }
+  },
+  {
+    "id": "longsplat",
+    "title": "LongSplat: Robust Unposed 3D Gaussian Splatting for Casual Long Videos",
+    "year": 2025,
+    "venue": "ICCV",
+    "venue_full": "IEEE International Conference on Computer Vision (ICCV)",
+    "authors": [
+      {
+        "name": "Chin-Yang Lin",
+        "url": "https://linjohnss.github.io/"
+      },
+      {
+        "name": "Cheng Sun",
+        "url": "https://sunset1995.github.io/"
+      },
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Min-Hung Chen",
+        "url": "https://minhungchen.netlify.app/"
+      },
+      {
+        "name": "Yen-Yu Lin",
+        "url": "https://sites.google.com/site/yylinweb/"
+      },
+      {
+        "name": "Yu-Lun Liu",
+        "url": "https://yulunalexliu.github.io/"
+      }
+    ],
+    "url": "https://linjohnss.github.io/longsplat/",
+    "description": "Reconstructing 3D scenes from casual, long, unposed videos and rendering novel views without camera calibration.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2508.14041"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2508.14041"
+      },
+      {
+        "label": "Project",
+        "url": "https://linjohnss.github.io/longsplat/"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/NVlabs/LongSplat"
+      }
+    ],
+    "media": {
+      "image": "assets/media/longsplat.webp",
+      "alt": "LongSplat — full-frame demonstration from the official project video.",
+      "fit": "contain",
+      "source": "https://fuenyang1127.github.io/images/longsplat.png",
+      "original": "images/longsplat.png",
+      "width": 1100,
+      "height": 684,
+      "video": "assets/media/longsplat.mp4",
+      "poster": "assets/media/longsplat-poster.webp",
+      "video_source": "https://linjohnss.github.io/longsplat/videos/teaser/teaser_video.mp4",
+      "video_note": "Silent excerpt from the official project video. Full frame preserved; no cropping.",
+      "poster_width": 800,
+      "poster_height": 450
+    }
+  },
+  {
+    "id": "videomage",
+    "title": "VideoMage: Multi-Subject and Motion Customization of Text-to-Video Diffusion Models",
+    "year": 2025,
+    "venue": "CVPR",
+    "venue_full": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "authors": [
+      {
+        "name": "Chi-Pin Huang",
+        "url": "https://jasper0314-huang.github.io/"
+      },
+      {
+        "name": "Yen-Siang Wu",
+        "url": "https://www.csie.ntu.edu.tw/~b09902097/yensiangwu/"
+      },
+      {
+        "name": "Hung-Kai Chung"
+      },
+      {
+        "name": "Kai-Po Chang"
+      },
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "http://vllab.ee.ntu.edu.tw/ycwang.html"
+      }
+    ],
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Huang_VideoMage_Multi-Subject_and_Motion_Customization_of_Text-to-Video_Diffusion_Models_CVPR_2025_paper.pdf",
+    "description": "Customizing multiple subjects and their motion in text-to-video generation through disentangled appearance–motion learning and spatial-temporal composition.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2503.21781"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2503.21781"
+      },
+      {
+        "label": "Project",
+        "url": "https://jasper0314-huang.github.io/videomage-customization/"
+      }
+    ],
+    "media": {
+      "image": "assets/media/videomage.webp",
+      "alt": "VideoMage — full-frame demonstration from the official project video.",
+      "fit": "contain",
+      "source": "https://fuenyang1127.github.io/images/videomage.png",
+      "original": "images/videomage.png",
+      "width": 1033,
+      "height": 900,
+      "video": "assets/media/videomage.mp4",
+      "poster": "assets/media/videomage-poster.webp",
+      "video_source": "https://jasper0314-huang.github.io/videomage-customization/static/videos/teaser.mp4",
+      "video_note": "Silent excerpt from the official project video. Full frame preserved; no cropping.",
+      "poster_width": 800,
+      "poster_height": 356
+    }
+  },
+  {
+    "id": "receler",
+    "title": "Receler: Reliable Concept Erasing of Text-to-Image Diffusion Models via Lightweight Erasers",
+    "year": 2024,
+    "venue": "ECCV",
+    "venue_full": "European Conference on Computer Vision (ECCV)",
+    "authors": [
+      {
+        "name": "Chi-Pin Huang",
+        "url": "https://jasper0314-huang.github.io/"
+      },
+      {
+        "name": "Kai-Po Chang"
+      },
+      {
+        "name": "Chung-Ting Tsai"
+      },
+      {
+        "name": "Yung-Hsuan Lai"
+      },
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "http://vllab.ee.ntu.edu.tw/ycwang.html"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2311.17717",
+    "description": "Reliable concept erasing for text-to-image diffusion models using lightweight erasers.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2311.17717"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2311.17717"
+      },
+      {
+        "label": "Project",
+        "url": "https://jasper0314-huang.github.io/receler-concept-erasing/"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/jasper0314-huang/Receler"
+      }
+    ],
+    "media": {
+      "image": "assets/media/receler.webp",
+      "alt": "Receler: Reliable Concept Erasing of Text-to-Image Diffusion Models via Lightweight Erasers — complete research figure.",
+      "fit": "contain",
+      "source": "https://fuenyang1127.github.io/images/receler.png",
+      "original": "images/receler.png",
+      "width": 1100,
+      "height": 841
+    }
+  },
+  {
+    "id": "select",
+    "title": "Select and Distill: Selective Dual-Teacher Knowledge Transfer for Continual Learning on Vision-Language Models",
+    "year": 2024,
+    "venue": "ECCV",
+    "venue_full": "European Conference on Computer Vision (ECCV)",
+    "authors": [
+      {
+        "name": "Yu-Chu Yu",
+        "url": "https://chuyu.org/"
+      },
+      {
+        "name": "Chi-Pin Huang",
+        "url": "https://jasper0314-huang.github.io/"
+      },
+      {
+        "name": "Jr-Jen Chen"
+      },
+      {
+        "name": "Kai-Po Chang"
+      },
+      {
+        "name": "Yung-Hsuan Lai"
+      },
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "http://vllab.ee.ntu.edu.tw/ycwang.html"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2403.09296",
+    "description": "Selective knowledge transfer from two teachers for continual learning with vision-language models.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2403.09296"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2403.09296"
+      },
+      {
+        "label": "Project",
+        "url": "https://chuyu.org/research/snd/"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/chu0802/SnD"
+      }
+    ],
+    "media": {
+      "image": "assets/media/select.webp",
+      "alt": "Select and Distill: Selective Dual-Teacher Knowledge Transfer for Continual Learning on Vision-Language Models — complete research figure.",
+      "fit": "contain",
+      "source": "https://fuenyang1127.github.io/images/select.png",
+      "original": "images/select.png",
+      "width": 1100,
+      "height": 533
+    }
+  },
+  {
+    "id": "rapper",
+    "title": "RAPPER: Reinforced Rationale-Prompted Paradigm for Natural Language Explanation in Visual Question Answering",
+    "year": 2024,
+    "venue": "ICLR",
+    "venue_full": "International Conference on Learning Representations (ICLR)",
+    "authors": [
+      {
+        "name": "Kai-Po Chang"
+      },
+      {
+        "name": "Chi-Pin Huang",
+        "url": "https://jasper0314-huang.github.io/"
+      },
+      {
+        "name": "Wei-Yuan Cheng"
+      },
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Chien-Yi Wang",
+        "url": "https://chienyiwang.github.io/"
+      },
+      {
+        "name": "Yung-Hsuan Lai"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "http://vllab.ee.ntu.edu.tw/ycwang.html"
+      }
+    ],
+    "url": "https://openreview.net/forum?id=bshfchPM9H",
+    "description": "Reinforced rationale prompting for natural-language explanations in visual question answering.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://openreview.net/pdf?id=bshfchPM9H"
+      }
+    ],
+    "media": {
+      "image": "assets/media/rapper.webp",
+      "alt": "RAPPER: Reinforced Rationale-Prompted Paradigm for Natural Language Explanation in Visual Question Answering — complete research figure.",
+      "fit": "contain",
+      "source": "https://fuenyang1127.github.io/images/rapper.png",
+      "original": "images/rapper.png",
+      "width": 1100,
+      "height": 709
+    }
+  },
+  {
+    "id": "fedlgt",
+    "title": "Language-Guided Transformer for Federated Multi-Label Classification",
+    "year": 2024,
+    "venue": "AAAI",
+    "venue_full": "AAAI Conference on Artificial Intelligence (AAAI)",
+    "authors": [
+      {
+        "name": "I-Jieh Liu",
+        "url": "https://jack24658735.github.io/"
+      },
+      {
+        "name": "Ci-Siang Lin"
+      },
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "http://vllab.ee.ntu.edu.tw/ycwang.html"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2312.07165",
+    "description": "Language-guided transformer learning for multi-label image classification in a federated setting.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2312.07165.pdf"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2312.07165"
+      },
+      {
+        "label": "Project",
+        "url": "https://jack24658735.github.io/fedlgt/"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/Jack24658735/FedLGT"
+      }
+    ],
+    "media": {
+      "image": "assets/media/fedlgt.webp",
+      "alt": "Language-Guided Transformer for Federated Multi-Label Classification — complete research figure.",
+      "fit": "contain",
+      "source": "https://fuenyang1127.github.io/images/fedlgt.png",
+      "original": "images/fedlgt.png",
+      "width": 963,
+      "height": 900
+    }
+  },
+  {
+    "id": "fl",
+    "title": "Efficient Model Personalization in Federated Learning via Client-Specific Prompt Generation",
+    "year": 2023,
+    "venue": "ICCV",
+    "venue_full": "IEEE International Conference on Computer Vision (ICCV)",
+    "authors": [
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Chien-Yi Wang",
+        "url": "https://chienyiwang.github.io/"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "http://vllab.ee.ntu.edu.tw/ycwang.html"
+      }
+    ],
+    "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Yang_Efficient_Model_Personalization_in_Federated_Learning_via_Client-Specific_Prompt_Generation_ICCV_2023_paper.html",
+    "description": "Client-specific prompt generation for efficient model personalization in federated learning.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Yang_Efficient_Model_Personalization_in_Federated_Learning_via_Client-Specific_Prompt_Generation_ICCV_2023_paper.pdf"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2308.15367"
+      },
+      {
+        "label": "Poster",
+        "url": "data/fl_poster.pdf"
+      }
+    ],
+    "media": {
+      "image": "assets/media/fl.webp",
+      "alt": "Efficient Model Personalization in Federated Learning via Client-Specific Prompt Generation — complete research figure.",
+      "fit": "contain",
+      "source": "https://fuenyang1127.github.io/images/fl.png",
+      "original": "images/fl.png",
+      "width": 1003,
+      "height": 900
+    }
+  },
+  {
+    "id": "dgneurips21",
+    "title": "Adversarial Teacher-Student Representation Learning for Domain Generalization",
+    "year": 2021,
+    "venue": "NeurIPS",
+    "venue_full": "Advances in Neural Information Processing Systems (NeurIPS)",
+    "authors": [
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Yuan-Chia Cheng"
+      },
+      {
+        "name": "Zu-Yun Shiau"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "http://vllab.ee.ntu.edu.tw/ycwang.html"
+      }
+    ],
+    "url": "https://proceedings.neurips.cc/paper/2021/hash/a2137a2ae8e39b5002a3f8909ecb88fe-Abstract.html",
+    "description": "Adversarial teacher–student representation learning for generalization to unseen visual domains.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://proceedings.neurips.cc/paper/2021/file/a2137a2ae8e39b5002a3f8909ecb88fe-Paper.pdf"
+      },
+      {
+        "label": "OpenReview",
+        "url": "https://openreview.net/forum?id=gKyyBfMM4Y"
+      },
+      {
+        "label": "Video",
+        "url": "https://slideslive.com/38967080/adversarial-teacherstudent-representation-learning-for-domain-generalization?ref=recommended"
+      },
+      {
+        "label": "Slides",
+        "url": "data/dg_slides.pdf"
+      },
+      {
+        "label": "Poster",
+        "url": "data/dg_poster.pdf"
+      }
+    ],
+    "media": {
+      "image": "assets/media/dgneurips21.webp",
+      "alt": "Adversarial Teacher-Student Representation Learning for Domain Generalization — complete research figure.",
+      "fit": "contain",
+      "source": "https://fuenyang1127.github.io/images/dgneurips21.png",
+      "original": "images/dgneurips21.png",
+      "width": 1100,
+      "height": 881
+    },
+    "award": "Spotlight"
+  }
+]

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>Robot Arm</title><desc>An industrial robot arm with a precision gripper.</desc><rect width="64" height="64" rx="12" fill="#17232c"/><path d="m24 47-7-18 18-13 10 13" fill="none" stroke="#e8eef2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 46h12l5 8H13Z" fill="#e8eef2"/>
+<g fill="#17232c" stroke="#e8eef2" stroke-width="3"><circle cx="17" cy="29" r="5"/><circle cx="35" cy="16" r="5"/></g>
+<path d="M42 32v7l5 3M48 27l7 3v7" fill="none" stroke="#94cf45" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="45" cy="29" r="3" fill="#94cf45"/></svg>

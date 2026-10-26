@@ -1,0 +1,296 @@
+[
+  {
+    "id": "face",
+    "title": "Learning Identity-Invariant Motion Representations for Cross-ID Face Reenactment",
+    "year": 2020,
+    "venue": "CVPR",
+    "venue_full": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "authors": [
+      {
+        "name": "Po-Hsiang Huang"
+      },
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "http://vllab.ee.ntu.edu.tw/ycwang.html"
+      }
+    ],
+    "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Huang_Learning_Identity-Invariant_Motion_Representations_for_Cross-ID_Face_Reenactment_CVPR_2020_paper.html",
+    "description": "Learning identity-invariant motion representations for face reenactment across identities.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Huang_Learning_Identity-Invariant_Motion_Representations_for_Cross-ID_Face_Reenactment_CVPR_2020_paper.pdf"
+      },
+      {
+        "label": "Video",
+        "url": "https://www.youtube.com/watch?v=5NYI_ncWvnI"
+      }
+    ],
+    "media": {
+      "image": "assets/media/face.webp",
+      "alt": "Learning Identity-Invariant Motion Representations for Cross-ID Face Reenactment — complete research figure.",
+      "fit": "contain",
+      "source": "https://fuenyang1127.github.io/images/face.png",
+      "original": "images/face.png",
+      "width": 640,
+      "height": 550
+    },
+    "topic": "Generative models"
+  },
+  {
+    "id": "i2v",
+    "title": "Dual-MTGAN: Stochastic and Deterministic Motion Transfer for Image-to-Video Synthesis",
+    "year": 2020,
+    "venue": "ICPR",
+    "venue_full": "IEEE International Conference on Pattern Recognition (ICPR)",
+    "authors": [
+      {
+        "name": "Fu-En Yang*"
+      },
+      {
+        "name": "Jing-Cheng Chang*"
+      },
+      {
+        "name": "Yuan-Hao Lee"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "http://vllab.ee.ntu.edu.tw/ycwang.html"
+      }
+    ],
+    "url": "https://ieeexplore.ieee.org/document/9412781",
+    "description": "Combining stochastic and deterministic motion transfer for image-to-video synthesis.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2102.13329.pdf"
+      },
+      {
+        "label": "IEEE Xplore",
+        "url": "https://ieeexplore.ieee.org/document/9412781"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2102.13329"
+      },
+      {
+        "label": "Video",
+        "url": "https://drive.google.com/file/d/1vv4035f-9cuSmt2FobYNuDfO92s1ss_M/view?usp=sharing"
+      },
+      {
+        "label": "Slides",
+        "url": "data/ICPR_2020_slides.pdf"
+      }
+    ],
+    "media": {
+      "image": "assets/media/i2v.webp",
+      "alt": "Dual-MTGAN: Stochastic and Deterministic Motion Transfer for Image-to-Video Synthesis — complete research figure.",
+      "fit": "contain",
+      "source": "https://fuenyang1127.github.io/images/i2v.png",
+      "original": "images/i2v.png",
+      "width": 1048,
+      "height": 666
+    },
+    "topic": "Generative models"
+  },
+  {
+    "id": "semanticicpr",
+    "title": "Semantics-Guided Representation Learning with Applications to Visual Synthesis",
+    "year": 2020,
+    "venue": "ICPR",
+    "venue_full": "IEEE International Conference on Pattern Recognition (ICPR)",
+    "authors": [
+      {
+        "name": "Jia-Wei Yan"
+      },
+      {
+        "name": "Ci-Siang Lin"
+      },
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Yu-Jhe Li",
+        "url": "https://yujheli.github.io/"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "http://vllab.ee.ntu.edu.tw/ycwang.html"
+      }
+    ],
+    "url": "https://ieeexplore.ieee.org/document/9413171",
+    "description": "Semantics-guided representation learning for visual synthesis.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2010.10772.pdf"
+      },
+      {
+        "label": "IEEE Xplore",
+        "url": "https://ieeexplore.ieee.org/document/9413171"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2010.10772"
+      }
+    ],
+    "media": {
+      "image": "assets/media/semanticicpr.webp",
+      "alt": "Semantics-Guided Representation Learning with Applications to Visual Synthesis — complete research figure.",
+      "fit": "contain",
+      "source": "https://fuenyang1127.github.io/images/semanticicpr.png",
+      "original": "images/semanticicpr.png",
+      "width": 974,
+      "height": 736
+    },
+    "topic": "Generative models"
+  },
+  {
+    "id": "m2rd",
+    "title": "A Multi-Domain and Multi-Modal Representation Disentangler for Cross-Domain Image Manipulation and Classification",
+    "year": 2020,
+    "venue": "TIP",
+    "venue_full": "IEEE Transactions on Image Processing (TIP)",
+    "authors": [
+      {
+        "name": "Fu-En Yang*"
+      },
+      {
+        "name": "Jing-Cheng Chang*"
+      },
+      {
+        "name": "Chung-Chi Tsai"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "http://vllab.ee.ntu.edu.tw/ycwang.html"
+      }
+    ],
+    "url": "https://ieeexplore.ieee.org/document/8902223",
+    "description": "Disentangling multi-domain, multi-modal representations for cross-domain image manipulation and classification.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "data/m2rd.pdf"
+      },
+      {
+        "label": "IEEE Xplore",
+        "url": "https://ieeexplore.ieee.org/document/8902223"
+      }
+    ],
+    "media": {
+      "image": "assets/media/m2rd.webp",
+      "alt": "A Multi-Domain and Multi-Modal Representation Disentangler for Cross-Domain Image Manipulation and Classification — complete research figure.",
+      "fit": "contain",
+      "source": "https://fuenyang1127.github.io/images/m2rd.png",
+      "original": "images/m2rd.png",
+      "width": 852,
+      "height": 570
+    },
+    "topic": "Generative models"
+  },
+  {
+    "id": "vdosum",
+    "title": "Learning Hierarchical Self-Attention for Video Summarization",
+    "year": 2019,
+    "venue": "ICIP",
+    "venue_full": "IEEE International Conference on Image Processing (ICIP)",
+    "authors": [
+      {
+        "name": "Yen-Ting Liu"
+      },
+      {
+        "name": "Yu-Jhe Li",
+        "url": "https://yujheli.github.io/"
+      },
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Shang-Fu Chen"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "http://vllab.ee.ntu.edu.tw/ycwang.html"
+      }
+    ],
+    "url": "https://ieeexplore.ieee.org/document/8803639?denied=",
+    "description": "Hierarchical self-attention for learning video summaries.",
+    "links": [
+      {
+        "label": "IEEE Xplore",
+        "url": "https://ieeexplore.ieee.org/document/8803639?denied="
+      }
+    ],
+    "media": {
+      "image": "assets/media/vdosum.webp",
+      "alt": "Learning Hierarchical Self-Attention for Video Summarization — complete research figure.",
+      "fit": "contain",
+      "source": "https://fuenyang1127.github.io/images/vdosum.png",
+      "original": "images/vdosum.png",
+      "width": 1088,
+      "height": 662
+    },
+    "topic": "Visual understanding"
+  },
+  {
+    "id": "reid",
+    "title": "Adaptation and Re-Identification Network: An Unsupervised Deep Transfer Learning Approach to Person Re-Identification",
+    "year": 2018,
+    "venue": "CVPR Workshops",
+    "venue_full": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops",
+    "authors": [
+      {
+        "name": "Yu-Jhe Li",
+        "url": "https://yujheli.github.io/"
+      },
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Yen-Cheng Liu",
+        "url": "https://ycliu93.github.io/"
+      },
+      {
+        "name": "Yu-Ying Yeh",
+        "url": "https://yuyingyeh.github.io/"
+      },
+      {
+        "name": "Xiaofei Du"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "http://vllab.ee.ntu.edu.tw/ycwang.html"
+      }
+    ],
+    "url": "https://openaccess.thecvf.com/content_cvpr_2018_workshops/w6/html/Li_Adaptation_and_Re-Identification_CVPR_2018_paper.html",
+    "description": "Unsupervised deep transfer learning for adaptation and person re-identification.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w6/Li_Adaptation_and_Re-Identification_CVPR_2018_paper.pdf"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/1804.09347"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/yujheli/ARN"
+      }
+    ],
+    "media": {
+      "image": "assets/media/reid.webp",
+      "alt": "Adaptation and Re-Identification Network: An Unsupervised Deep Transfer Learning Approach to Person Re-Identification — complete research figure.",
+      "fit": "contain",
+      "source": "https://fuenyang1127.github.io/images/reid.png",
+      "original": "images/reid.png",
+      "width": 567,
+      "height": 369
+    },
+    "topic": "Transfer learning"
+  }
+]

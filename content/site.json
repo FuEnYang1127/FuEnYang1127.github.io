@@ -1,0 +1,46 @@
+{
+  "name": "Fu-En Yang",
+  "role": "Research Scientist",
+  "organization": "NVIDIA Research",
+  "url": "https://fuenyang1127.github.io/",
+  "description": "Fu-En Yang is a Research Scientist at NVIDIA Research studying generalizable and agentic robot intelligence through world modeling, world–action modeling, and agentic robotics.",
+  "portrait": "assets/media/portrait.webp",
+  "bio": [
+    "I am a Research Scientist at <a href=\"https://www.nvidia.com/en-us/research/\">NVIDIA Research</a>, developing generalizable and agentic systems for robot learning and control. My work connects world–action modeling, embodied reasoning, and action to help robots understand physical dynamics, anticipate the consequences of their decisions, and adapt their behavior across tasks and environments.",
+    "I received my Ph.D. from <a href=\"https://www.ntu.edu.tw/english/index.html\">National Taiwan University</a> in July 2023, advised by Prof. <a href=\"http://vllab.ee.ntu.edu.tw/ycwang.html\">Yu-Chiang Frank Wang</a>. Previously, I was a research intern at <a href=\"https://research.nvidia.com/labs/twn/\">NVIDIA Research</a> (Feb.–Aug. 2023) and a Ph.D. program researcher at <a href=\"https://aics.asus.com/ai-research-en/\">ASUS AICS</a> (Sep. 2020–Oct. 2022), working on model personalization, vision-language models, and visual transfer learning.",
+    "I received my bachelor’s degree in Electrical Engineering from National Taiwan University in 2018."
+  ],
+  "links": [
+    {
+      "label": "Email",
+      "url": "mailto:aoncpc@gmail.com"
+    },
+    {
+      "label": "CV",
+      "url": "data/Fu_En_CV.pdf"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com.tw/citations?user=k6Iz9VoAAAAJ&hl=zh-TW"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/fu-en-yang-77ba7b175/"
+    },
+    {
+      "label": "X / Twitter",
+      "url": "https://twitter.com/FuEnYang1"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/FuEnYang1127"
+    }
+  ],
+  "news_visible": 4,
+  "research_interest": "My research focuses on <strong>generalizable and agentic robot intelligence</strong>. I study <strong>world modeling and world–action modeling</strong> to understand physical dynamics, predict action outcomes, and reason through imagined futures. By connecting these predictive models with <strong>agentic robotics</strong>, I aim to build robots that plan over long horizons, learn from interaction, and adapt to unfamiliar tasks and environments.",
+  "analytics": {
+    "url": "https://clustrmaps.com/site/1bqtk",
+    "image": "https://www.clustrmaps.com/map_v2.png?d=KVWP0R4tKoozSeVBoMOM7DdIhnGKJuHk-qMxrsyiQbo&cl=ffffff",
+    "alt": "Visitor locations on the world map — open ClustrMaps for visitor counts and geographic statistics."
+  }
+}

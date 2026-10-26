@@ -1,0 +1,220 @@
+[
+  {
+    "id": "zsl",
+    "title": "Semantics-Guided Intra-Category Knowledge Transfer for Generalized Zero-Shot Learning",
+    "year": 2023,
+    "venue": "IJCV",
+    "venue_full": "International Journal of Computer Vision (IJCV)",
+    "authors": [
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Yuan-Hao Lee"
+      },
+      {
+        "name": "Chia-Ching Lin"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "http://vllab.ee.ntu.edu.tw/ycwang.html"
+      }
+    ],
+    "url": "https://link.springer.com/article/10.1007/s11263-023-01767-0",
+    "description": "Semantics-guided knowledge transfer within categories for generalized zero-shot learning.",
+    "links": [
+      {
+        "label": "Publication",
+        "url": "https://link.springer.com/article/10.1007/s11263-023-01767-0"
+      }
+    ],
+    "media": {
+      "image": "assets/media/zsl.webp",
+      "alt": "Semantics-Guided Intra-Category Knowledge Transfer for Generalized Zero-Shot Learning — complete research figure.",
+      "fit": "contain",
+      "source": "https://fuenyang1127.github.io/images/zsl.png",
+      "original": "images/zsl.png",
+      "width": 1100,
+      "height": 711
+    }
+  },
+  {
+    "id": "ssl",
+    "title": "Self-Supervised Pyramid Representation Learning for Multi-Label Visual Analysis and Beyond",
+    "year": 2023,
+    "venue": "WACV",
+    "venue_full": "IEEE Winter Conference on Applications of Computer Vision (WACV)",
+    "authors": [
+      {
+        "name": "Cheng-Yen Hsieh"
+      },
+      {
+        "name": "Chih-Jung Chang"
+      },
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "http://vllab.ee.ntu.edu.tw/ycwang.html"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2208.14439",
+    "description": "Self-supervised pyramid representations for multi-label visual analysis.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2208.14439.pdf"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2208.14439"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/WesleyHsieh0806/SS-PRL"
+      }
+    ],
+    "media": {
+      "image": "assets/media/ssl.webp",
+      "alt": "Self-Supervised Pyramid Representation Learning for Multi-Label Visual Analysis and Beyond — complete research figure.",
+      "fit": "contain",
+      "source": "https://fuenyang1127.github.io/images/ssl.png",
+      "original": "images/ssl.png",
+      "width": 1100,
+      "height": 633
+    }
+  },
+  {
+    "id": "fslseg",
+    "title": "A Pixel-Level Meta-Learner for Weakly Supervised Few-Shot Semantic Segmentation",
+    "year": 2022,
+    "venue": "WACV",
+    "venue_full": "IEEE Winter Conference on Applications of Computer Vision (WACV)",
+    "authors": [
+      {
+        "name": "Yuan-Hao Lee"
+      },
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "http://vllab.ee.ntu.edu.tw/ycwang.html"
+      }
+    ],
+    "url": "https://openaccess.thecvf.com/content/WACV2022/html/Lee_A_Pixel-Level_Meta-Learner_for_Weakly_Supervised_Few-Shot_Semantic_Segmentation_WACV_2022_paper.html",
+    "description": "A pixel-level meta-learner for semantic segmentation with weak supervision and few-shot examples.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://openaccess.thecvf.com/content/WACV2022/papers/Lee_A_Pixel-Level_Meta-Learner_for_Weakly_Supervised_Few-Shot_Semantic_Segmentation_WACV_2022_paper.pdf"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2111.01418"
+      }
+    ],
+    "media": {
+      "image": "assets/media/fslseg.webp",
+      "alt": "A Pixel-Level Meta-Learner for Weakly Supervised Few-Shot Semantic Segmentation — complete research figure.",
+      "fit": "contain",
+      "source": "https://fuenyang1127.github.io/images/fslseg.png",
+      "original": "images/fslseg.png",
+      "width": 1048,
+      "height": 698
+    }
+  },
+  {
+    "id": "layout",
+    "title": "LayoutTransformer: Scene Layout Generation With Conceptual and Spatial Diversity",
+    "year": 2021,
+    "venue": "CVPR",
+    "venue_full": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "authors": [
+      {
+        "name": "Cheng-Fu Yang*",
+        "url": "https://joeyy5588.github.io/"
+      },
+      {
+        "name": "Wan-Cyuan Fan*",
+        "url": "https://sites.google.com/view/wancyuanfan"
+      },
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "http://vllab.ee.ntu.edu.tw/ycwang.html"
+      }
+    ],
+    "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Yang_LayoutTransformer_Scene_Layout_Generation_With_Conceptual_and_Spatial_Diversity_CVPR_2021_paper.html",
+    "description": "Generating scene layouts with both conceptual and spatial diversity using a transformer.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_LayoutTransformer_Scene_Layout_Generation_With_Conceptual_and_Spatial_Diversity_CVPR_2021_paper.pdf"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/davidhalladay/LayoutTransformer"
+      }
+    ],
+    "media": {
+      "image": "assets/media/layout.webp",
+      "alt": "LayoutTransformer: Scene Layout Generation With Conceptual and Spatial Diversity — complete research figure.",
+      "fit": "contain",
+      "source": "https://fuenyang1127.github.io/images/layout.png",
+      "original": "images/layout.png",
+      "width": 610,
+      "height": 622
+    }
+  },
+  {
+    "id": "fsl",
+    "title": "Few-Shot Classification in Unseen Domains by Episodic Meta-Learning Across Visual Domains",
+    "year": 2021,
+    "venue": "ICIP",
+    "venue_full": "IEEE International Conference on Image Processing (ICIP)",
+    "authors": [
+      {
+        "name": "Yuan-Chia Cheng"
+      },
+      {
+        "name": "Ci-Siang Lin"
+      },
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "http://vllab.ee.ntu.edu.tw/ycwang.html"
+      }
+    ],
+    "url": "https://ieeexplore.ieee.org/document/9506141",
+    "description": "Episodic meta-learning across visual domains for few-shot classification in unseen domains.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2112.13539.pdf"
+      },
+      {
+        "label": "IEEE Xplore",
+        "url": "https://ieeexplore.ieee.org/document/9506141"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2112.13539"
+      }
+    ],
+    "media": {
+      "image": "assets/media/fsl.webp",
+      "alt": "Few-Shot Classification in Unseen Domains by Episodic Meta-Learning Across Visual Domains — complete research figure.",
+      "fit": "contain",
+      "source": "https://fuenyang1127.github.io/images/fsl.png",
+      "original": "images/fsl.png",
+      "width": 1100,
+      "height": 641
+    }
+  }
+]
