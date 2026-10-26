@@ -158,11 +158,11 @@ def render():
     scholarly = next(item['url'] for item in site['links'] if item['label'] == 'Google Scholar')
     analytics = site.get('analytics')
     visitor_map = ''
-    if analytics:
+    if analytics and analytics.get('enabled', True):
         visitor_map = f'''<section class="visitor-section" aria-labelledby="visitor-title">
           <h2 id="visitor-title">Visitors</h2>
-          <a class="visitor-map" href="{url(analytics['url'])}" target="_blank" rel="noopener noreferrer" aria-label="Open visitor counts and geographic statistics on ClustrMaps">
-            <img src="{url(analytics['image'])}" alt="{esc(analytics['alt'])}" width="300" height="180" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          <a class="visitor-map" href="{url(analytics['url'])}" target="_blank" rel="noopener noreferrer" aria-label="Open visitor counts and geographic statistics on {esc(analytics['provider'])}">
+            <img src="{url(analytics['image'])}" alt="{esc(analytics['alt'])}" width="{int(analytics['width'])}" height="{int(analytics['height'])}" loading="eager" referrerpolicy="no-referrer-when-downgrade">
           </a>
           <a class="text-link" href="{url(analytics['url'])}" target="_blank" rel="noopener noreferrer">Visitor statistics &amp; locations ↗</a>
         </section>'''
@@ -177,7 +177,7 @@ def render():
     person = {'@context':'https://schema.org','@type':'Person','name':site['name'],'url':site['url'],'image':site['url']+site['portrait'],'jobTitle':site['role'],'worksFor':{'@type':'Organization','name':site['organization']},'sameAs':[l['url'] for l in site['links'] if l['url'].startswith('https:') and l['label']!='CV']}
     data = dict(
         name=esc(site['name']), description=esc(site['description']), canonical=url(site['url']),
-        favicon_url='assets/favicon.svg?v='+hashlib.sha256((ROOT/'assets/favicon.svg').read_bytes()).hexdigest()[:10],
+        favicon_url='images/nvidia.png?v='+hashlib.sha256((ROOT/'images/nvidia.png').read_bytes()).hexdigest()[:10],
         css_url='assets/site.css?v='+hashlib.sha256((ROOT/'assets/site.css').read_bytes()).hexdigest()[:10],
         js_url='assets/site.js?v='+hashlib.sha256((ROOT/'assets/site.js').read_bytes()).hexdigest()[:10],
         email=url(next(item['url'] for item in site['links'] if item['label'] == 'Email')),

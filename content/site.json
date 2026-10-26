@@ -39,8 +39,13 @@
   "news_visible": 4,
   "research_interest": "My research focuses on <strong>generalizable and agentic robot intelligence</strong>. I study <strong>world modeling and world–action modeling</strong> to understand physical dynamics, predict action outcomes, and reason through imagined futures. By connecting these predictive models with <strong>agentic robotics</strong>, I aim to build robots that plan over long horizons, learn from interaction, and adapt to unfamiliar tasks and environments.",
   "analytics": {
-    "url": "https://clustrmaps.com/site/1bqtk",
-    "image": "https://www.clustrmaps.com/map_v2.png?d=KVWP0R4tKoozSeVBoMOM7DdIhnGKJuHk-qMxrsyiQbo&cl=ffffff",
-    "alt": "Visitor locations on the world map — open ClustrMaps for visitor counts and geographic statistics."
+    "enabled": true,
+    "provider": "MapMyVisitors",
+    "url": "https://mapmyvisitors.com/web/1c93a",
+    "image": "https://mapmyvisitors.com/map.png?d=UjT9c7cC4Ial46t7f6DoV0yufkv1iwb5w7VTPpiPjt8&cl=ffffff",
+    "width": 180,
+    "height": 114,
+    "alt": "Visitor locations and counts for Fu-En Yang’s website — open MapMyVisitors for detailed statistics.",
+    "source": "Image embed code supplied by the owner on 2026-10-26; JavaScript variant also supplied."
   }
 }

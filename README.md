@@ -96,11 +96,16 @@ Body / authors / summaries use 16px text and 24px line height. Paper titles use
 `assets/fonts/README.txt` for exact font URLs and licenses. The former NVIDIA Sans /
 Inter stack was removed at the owner's request.
 
-The footer reuses the original ClustrMaps image and public statistics link from
-this site's previous homepage. Its endpoint and image URL live in `site.json`.
-The map loads lazily; if unavailable, JavaScript hides the broken image and leaves
-the dashboard link. Availability and visitor counts are controlled by ClustrMaps.
-Do not fabricate a count, replace the site ID or create an analytics account.
+The footer uses the owner's MapMyVisitors image embed (`web/1c93a`), supplied on
+2026-10-26 and verified to identify `https://fuenyang1127.github.io/`. Its dashboard,
+image URL, tracking key, natural dimensions and provenance live in `site.json`.
+The image loads eagerly to register visits even when visitors do not scroll to
+the footer; preserve its natural size and aspect ratio. The map and text link
+open the owner's dashboard in new tabs. This is the provider's supported image
+variant and works without JavaScript. The provider controls counts and geographic
+data. Never fabricate markers or counts. If the image fails, hide the whole
+visitor section including its link, so no broken map or dead dashboard remains.
+The original ClustrMaps service refused connections and is no longer embedded.
 
 ## Appearance and news updates
 
@@ -109,9 +114,8 @@ The owner removed the theme switch and preference logic. Any `fu-en-theme` value
 saved by an earlier preview is ignored. Typography and paper layout stay the same.
 All social buttons, including CV, use the same neutral style.
 
-The favicon is the owner's selected option C: an original SVG industrial robot
-arm with a green precision gripper, designed for legibility at 16–32px. Its URL
-includes a content hash to refresh older cached icons.
+The favicon uses the owner's original `images/nvidia.png` asset. Its URL includes
+a content hash to refresh older cached icons, and the HTML declares `image/png`.
 
 News dates use `YYYY-MM`; equal-month entries preserve the JSON order. The
 September 2026 X-REASON invited talk is deliberately second, and its exact title

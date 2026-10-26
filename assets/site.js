@@ -3,7 +3,7 @@
   'use strict';
   const visitorImage = document.querySelector('.visitor-map img');
   if (visitorImage) {
-    const hideUnavailableMap = () => { visitorImage.closest('.visitor-map').hidden = true; };
+    const hideUnavailableMap = () => { visitorImage.closest('.visitor-section').hidden = true; };
     visitorImage.addEventListener('error', hideUnavailableMap);
     if (visitorImage.complete && !visitorImage.naturalWidth) hideUnavailableMap();
   }

@@ -12,10 +12,9 @@ pushing; wait for the owner's approval of that preview before publication.
   the right. Do not replace them with a flat list. The rest of the page stays white.
 - Light version only. No theme toggle, system-driven dark style or stored theme
   preference logic. The owner explicitly removed Dark mode.
-- The owner selected favicon option C: an industrial robot arm with a green
-  precision gripper on a dark rounded square. Preserve this design, its clear
-  silhouette at 16px, and its content-hashed URL for cache refresh. The icon
-  choice is approved; publication of the overall website remains pending.
+- The owner requested the original NVIDIA favicon again. Use the existing
+  `images/nvidia.png`, with the correct PNG MIME type and a content-hashed URL.
+  Do not replace it with another custom robot or agent icon.
 - CV uses the same neutral button treatment as the other profile links.
 - No FY logo or initials in the header. Keep Fu-En's portrait on the right,
   circular and flush, with no padded white frame or decorative card.
@@ -39,8 +38,12 @@ pushing; wait for the owner's approval of that preview before publication.
 - Scientific figures retain their full content and natural aspect ratio. Cap desktop thumbnails at 350px wide and 220px high, with natural image
   proportions. No fixed-height blank frames, cropping, stretching or fictional
   research imagery.
-- Bottom-of-page ClustrMaps widget and statistics link reuse the owner's original
-  site ID. Do not invent analytics counts or add a new tracking provider/account.
+- The owner supplied their MapMyVisitors embed code for `web/1c93a`, associated
+  with `https://fuenyang1127.github.io/`. Use the supplied image widget and preserve
+  its tracking key in `content/site.json`. It loads eagerly to register page
+  visits, at its natural 180 × 114 dimensions. The image and statistics link open
+  the same dashboard in a new tab. Do not restore unavailable ClustrMaps URLs or
+  use another site's widget. Never fabricate visitor counts or locations.
 
 The Research Interests paragraph (not the opening biography) must begin: “My research focuses on generalizable
 and agentic robot intelligence.” Explicitly emphasize world modeling, physical
@@ -83,6 +86,7 @@ PDF files. Follow explicit paper ordering and the older-paper selection above wh
 Run the builder / check and review desktop and phone rendering. Check overflow,
 all local images and links, the news archive, featured ordering, video play/pause,
 reduced motion, and no-JavaScript content. Test the visitor image failure state:
-when ClustrMaps is unavailable, hide the broken map and retain the statistics link.
+when the map provider is unavailable, hide the whole visitor section, including
+its dashboard link. Disabled analytics must render no external tracking requests.
 Use a local branch; do not overwrite other changes. Do not push, merge or publish
 until the owner has reviewed and approved the current preview.
