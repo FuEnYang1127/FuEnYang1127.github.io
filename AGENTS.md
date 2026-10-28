@@ -50,15 +50,17 @@ pushing; wait for the owner's approval of that preview before publication.
   submissions are under review. Workshop acceptances must be shown as workshops,
   separate from main venues. ThinkWorld: RoboWM and PTA at NeurIPS 2026. PhysCaP:
   Robot Learning Workshop at NeurIPS 2026 and Agentic Robotics at CoRL 2026.
-- ThinkWorld and DreamX have `release_hold: true`: titles are plain text and
-  `links` must remain empty. Do not publish their project, PDF, arXiv or code URLs,
+- DreamX has `release_hold: true`: its title is plain text and
+  `links` must remain empty. Do not publish its project, PDF, arXiv or code URLs,
   including in public content metadata or provenance. Reference URLs are held in
   private local notes outside the repo; the owner will supply release links later.
   All three new entries use the owner-requested “Preprint 2026” badge, with
   workshop acceptances displayed separately.
 - The owner approved this three-paper preview and authorized publication.
-  ThinkWorld and DreamX's resource release holds remain in force: approval to
-  publish the cards does not authorize publishing their held project/paper URLs.
+  DreamX's resource release hold remains in force. On October 28, 2026, the owner
+  authorized ThinkWorld's release: Project https://thinkworld-project.github.io/,
+  arXiv https://arxiv.org/abs/2610.37666 and PDF https://arxiv.org/pdf/2610.37666.
+  ThinkWorld remains Preprint 2026; Code/Model are still pending.
 - GR00T N1.6 uses the full official 26.9-second policy rollout as a silent
   800 × 450 MP4, with its matching poster, natural aspect ratio, play/pause
   controls and on-screen caption identifying the source’s 2.5× playback speed.

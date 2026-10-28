@@ -37,13 +37,23 @@
         "name": "Fu-En Yang"
       }
     ],
-    "url": null,
-    "links": [],
-    "release_hold": true,
+    "url": "https://thinkworld-project.github.io/",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2610.37666"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.37666"
+      },
+      {
+        "label": "Project",
+        "url": "https://thinkworld-project.github.io/"
+      }
+    ],
+    "release_hold": false,
     "pending_links": [
-      "PDF",
-      "arXiv",
-      "Project",
       "Code",
       "Model"
     ],
@@ -68,15 +78,16 @@
       "poster": "assets/media/thinkworld-poster.webp",
       "poster_width": 800,
       "poster_height": 450,
-      "source": "Owner-provided release-held project reference; URL retained only in private local maintenance notes.",
+      "source": "https://thinkworld-project.github.io/",
       "video_source": "owner-reference:thinkworld:official-teaser",
-      "video_note": "Official teaser excerpt from 12 to 31 seconds. Silent H.264, 800 × 450, 24 fps; full frame and source playback speed preserved. Source URL is on release hold.",
+      "video_note": "Official teaser excerpt from 12 to 31 seconds. Silent H.264, 800 × 450, 24 fps; full frame and source playback speed preserved.",
       "caption": "Official demo · 7× speed"
     },
     "sources": {
-      "metadata": "Owner-provided private project reference; project and paper URLs are on release hold.",
+      "metadata": "https://thinkworld-project.github.io/",
       "workshop_acceptance": "Owner confirmed RoboWM and PTA at NeurIPS 2026.",
-      "main_conference_status": "Owner confirmed main-conference submission is under review."
+      "main_conference_status": "Owner confirmed main-conference submission is under review.",
+      "arxiv": "https://arxiv.org/abs/2610.37666"
     }
   },
   {
