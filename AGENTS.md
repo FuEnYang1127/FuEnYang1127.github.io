@@ -50,6 +50,8 @@ pushing; wait for the owner's approval of that preview before publication.
   submissions are under review. Workshop acceptances must be shown as workshops,
   separate from main venues. ThinkWorld: RoboWM and PTA at NeurIPS 2026. PhysCaP:
   Robot Learning Workshop at NeurIPS 2026 and Agentic Robotics at CoRL 2026.
+  DreamX: Scaling H2R at CoRL 2026 (https://scaling-h2r-corl.github.io/).
+  October 2026 News announces DreamX and PhysCaP at their respective CoRL workshops.
 - DreamX has `release_hold: true`: its title is plain text and
   `links` must remain empty. Do not publish its project, PDF, arXiv or code URLs,
   including in public content metadata or provenance. Reference URLs are held in
@@ -91,8 +93,8 @@ News uses `news_visible_since: "2026-02"`: February 2026 and all newer updates
 remain expanded. Only earlier dates go into Earlier news. Preserve this date
 boundary rather than a fixed item count, so future news stays visible.
 
-News: the X-REASON invited talk (September 8, 2026) must be the second update,
-following the existing September 2026 paper news. Its title, provided by the owner,
+News: keep the X-REASON invited talk (September 8, 2026) immediately after
+the existing September 2026 paper news; newer months appear above both. Its title, provided by the owner,
 is “Thinking through Word to World: Embodied Reasoning from Imagination”. Use past
 tense (“I gave an invited talk”), and link to https://xreason-workshop.github.io/.
 The NVIDIA Research internship mention links to https://research.nvidia.com/labs/twn/.

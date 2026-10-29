@@ -163,8 +163,15 @@
     },
     "sources": {
       "metadata": "Owner-provided private project reference; project and paper URLs are on release hold.",
-      "main_conference_status": "Owner confirmed main-conference submission is under review and arXiv posting is forthcoming."
-    }
+      "main_conference_status": "Owner confirmed main-conference submission is under review and arXiv posting is forthcoming.",
+      "workshop_acceptance": "Owner confirmed acceptance to the Scaling H2R workshop at CoRL 2026 on October 29, 2026."
+    },
+    "workshops": [
+      {
+        "label": "Scaling H2R @ CoRL 2026",
+        "url": "https://scaling-h2r-corl.github.io/"
+      }
+    ]
   },
   {
     "id": "physcap",
