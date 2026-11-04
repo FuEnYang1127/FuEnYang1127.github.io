@@ -52,14 +52,13 @@ pushing; wait for the owner's approval of that preview before publication.
   Robot Learning Workshop at NeurIPS 2026 and Agentic Robotics at CoRL 2026.
   DreamX: Scaling H2R at CoRL 2026 (https://scaling-h2r-corl.github.io/).
   October 2026 News announces DreamX and PhysCaP at their respective CoRL workshops.
-- DreamX has `release_hold: true`: its title is plain text and
-  `links` must remain empty. Do not publish its project, PDF, arXiv or code URLs,
-  including in public content metadata or provenance. Reference URLs are held in
-  private local notes outside the repo; the owner will supply release links later.
+- On November 4, 2026, the owner authorized DreamX's resource release:
+  Project https://cvlab-kaist.github.io/DreamX/, arXiv https://arxiv.org/abs/2611.05377
+  and PDF https://arxiv.org/pdf/2611.05377. Its release hold is cleared; Code is pending.
   All three new entries use the owner-requested “Preprint 2026” badge, with
   workshop acceptances displayed separately.
 - The owner approved this three-paper preview and authorized publication.
-  DreamX's resource release hold remains in force. On October 28, 2026, the owner
+  On October 28, 2026, the owner
   authorized ThinkWorld's release: Project https://thinkworld-project.github.io/,
   arXiv https://arxiv.org/abs/2610.37666 and PDF https://arxiv.org/pdf/2610.37666.
   ThinkWorld remains Preprint 2026; Code/Model are still pending.

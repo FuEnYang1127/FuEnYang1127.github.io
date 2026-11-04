@@ -136,13 +136,23 @@
         "url": "https://cvlab.kaist.ac.kr/members/faculty"
       }
     ],
-    "url": null,
-    "links": [],
-    "release_hold": true,
+    "url": "https://cvlab-kaist.github.io/DreamX/",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2611.05377"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2611.05377"
+      },
+      {
+        "label": "Project",
+        "url": "https://cvlab-kaist.github.io/DreamX/"
+      }
+    ],
+    "release_hold": false,
     "pending_links": [
-      "PDF",
-      "arXiv",
-      "Project",
       "Code"
     ],
     "description": "A universal latent action space extracted from a pretrained video diffusion model, capturing motion shared across humans and robots for cross-embodiment video transfer, human-to-robot action transfer, and compact robot policy learning.",
@@ -156,15 +166,16 @@
       "poster": "assets/media/dreamx-poster.webp",
       "poster_width": 800,
       "poster_height": 450,
-      "source": "Owner-provided release-held project reference; URL retained only in private local maintenance notes.",
+      "source": "https://cvlab-kaist.github.io/DreamX/",
       "video_source": "owner-reference:dreamx:official-teaser",
-      "video_note": "Official teaser excerpt from 42 to 52 seconds. Silent H.264, 800 × 450, 24 fps; full frame and source playback speed preserved. Source URL is on release hold.",
+      "video_note": "Official teaser excerpt from 42 to 52 seconds. Silent H.264, 800 × 450, 24 fps; full frame and source playback speed preserved.",
       "caption": "Official teaser · demos sped up"
     },
     "sources": {
-      "metadata": "Owner-provided private project reference; project and paper URLs are on release hold.",
-      "main_conference_status": "Owner confirmed main-conference submission is under review and arXiv posting is forthcoming.",
-      "workshop_acceptance": "Owner confirmed acceptance to the Scaling H2R workshop at CoRL 2026 on October 29, 2026."
+      "metadata": "https://cvlab-kaist.github.io/DreamX/",
+      "main_conference_status": "Owner confirmed main-conference submission is under review.",
+      "workshop_acceptance": "Owner confirmed acceptance to the Scaling H2R workshop at CoRL 2026 on October 29, 2026.",
+      "arxiv": "https://arxiv.org/abs/2611.05377"
     },
     "workshops": [
       {

@@ -73,7 +73,7 @@ including 2022, is archived. The current list has 17 papers. There are no topic 
 Author order must match the original paper.
 
 A publication may intentionally have `url: null` and `links: []`; its title then
-renders without a hyperlink, and no empty resource bar appears. For DreamX, keep `release_hold: true` until the owner supplies its release links.
+renders without a hyperlink, and no empty resource bar appears. For unreleased entries, keep `release_hold: true` until the owner supplies release links.
 The build rejects links on release-held entries. Keep their reference URLs out
 of public content/provenance and use private local notes instead. On release,
 clear the hold, set the public title URL and add verified resources. ThinkWorld,
@@ -81,7 +81,9 @@ DreamX and PhysCaP currently share the owner-requested `Preprint 2026` badge;
 update the venue when the owner confirms a main-conference acceptance.
 `workshops` is a list of `{label, url}` records, rendered on a separate, clearly
 labelled line. Workshop acceptance does not imply main-conference acceptance.
-The owner approved publication of these three entries. DreamX's resource hold remains in force until the owner supplies release links.
+The owner approved publication of these three entries. DreamX's Project, arXiv
+and PDF links were released with owner authorization on November 4, 2026
+(arXiv:2611.05377); its release hold is cleared and Code remains pending.
 ThinkWorld's Project, arXiv and PDF links were released with owner authorization
 on October 28, 2026 (arXiv:2610.37666); Code and Model remain pending.
 
