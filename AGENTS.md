@@ -82,10 +82,11 @@ pushing; wait for the owner's approval of that preview before publication.
 
 The owner-approved introduction centers on generalizable and agentic robot intelligence,
 with robot agents and embodied reasoning as the research directions and autonomous
-improvement and zero-shot generalization as capabilities. Preserve its two bold phrases.
+improvement and zero-shot generalization as capabilities. In the introduction, bold only
+“generalizable and agentic robot intelligence”; keep “robot agents and embodied reasoning” plain.
 The Research Interests paragraph begins “My research focuses on generalizable
-and agentic robot intelligence.” Bold only “generalizable and agentic robot intelligence”
-in this paragraph. Discuss robot agents combining perception, world–action modeling
+and agentic robot intelligence.” In this paragraph, bold “generalizable and agentic robot intelligence”,
+“long horizons”, “self-improve” and “zero-shot generalization”. Use “self-improve through interaction”. Discuss robot agents combining perception, world–action modeling
 and embodied reasoning to understand how humans solve problems, reason about physical
 dynamics and anticipate action outcomes. The goal is long-horizon planning,
 improvement through interaction and zero-shot generalization to new scenes, tasks
