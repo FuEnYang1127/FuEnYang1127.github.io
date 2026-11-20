@@ -91,8 +91,109 @@
     }
   },
   {
-    "id": "dreamx",
+    "id": "mawam",
     "featured_order": 2,
+    "title": "MAWAM: A Multi-Agent World-Action Model for Coordinated Manipulation",
+    "venue": "arXiv",
+    "year": 2026,
+    "robotics": true,
+    "authors": [
+      {
+        "name": "Xianzhe Fan",
+        "url": "https://github.com/XianzheFan"
+      },
+      {
+        "name": "Chi-Pin Huang",
+        "url": "https://jasper0314-huang.github.io/"
+      },
+      {
+        "name": "Fu-En Yang"
+      },
+      {
+        "name": "Jing Wang",
+        "url": "https://scholar.google.com/citations?user=cdL5PqgAAAAJ&hl=en"
+      },
+      {
+        "name": "Yecheng Wu",
+        "url": "https://hanlab.mit.edu/team/yecheng-wu"
+      },
+      {
+        "name": "Yu-Cheng Chou",
+        "url": "https://johnson111788.github.io/"
+      },
+      {
+        "name": "Johan Bjorck",
+        "url": "https://scholar.google.com/citations?user=Q_YY6OMAAAAJ"
+      },
+      {
+        "name": "Linxi “Jim” Fan",
+        "url": "https://jimfan.me/"
+      },
+      {
+        "name": "Jan Kautz",
+        "url": "https://jankautz.com/"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang",
+        "url": "https://vllab.ee.ntu.edu.tw/ycwang.html"
+      },
+      {
+        "name": "Zhiding Yu",
+        "url": "https://chrisding.github.io/"
+      },
+      {
+        "name": "Hengshuang Zhao",
+        "url": "https://i.cs.hku.hk/~hszhao/"
+      },
+      {
+        "name": "Zhiqi Li",
+        "url": "https://zhiqi-li.github.io/"
+      }
+    ],
+    "url": "https://research-staging.nvidia.com/labs/lpr/mawam/",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2611.25105"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2611.25105"
+      },
+      {
+        "label": "Project",
+        "url": "https://research-staging.nvidia.com/labs/lpr/mawam/"
+      }
+    ],
+    "description": "A multi-agent world–action model that jointly predicts future views and executable actions for teams of robots, enabling coordinated manipulation through cross-agent attention and shared physical foresight.",
+    "venue_full": "arXiv preprint arXiv:2611.25105",
+    "pending_links": [
+      "Code"
+    ],
+    "media": {
+      "image": "assets/media/mawam-poster.webp",
+      "width": 800,
+      "height": 450,
+      "fit": "contain",
+      "alt": "Two Galaxea R1 Pro robots jointly lift, align and fold a bath towel using MAWAM.",
+      "video": "assets/media/mawam.mp4",
+      "poster": "assets/media/mawam-poster.webp",
+      "poster_width": 800,
+      "poster_height": 450,
+      "source": "https://research-staging.nvidia.com/labs/lpr/mawam/",
+      "video_source": "https://research-staging.nvidia.com/labs/lpr/mawam/static/videos/real/towel.mp4",
+      "video_note": "Complete official 6.6-second bath-towel folding clip. Silent H.264, 800 × 450, 24 fps; full frame and source file timeline preserved. The project viewer applies an additional 1.5× playback rate; this local loop uses the file timeline at 1×.",
+      "caption": "Official demo · coordinated towel folding"
+    },
+    "sources": {
+      "metadata": "https://arxiv.org/abs/2611.25105",
+      "project": "https://research-staging.nvidia.com/labs/lpr/mawam/",
+      "author_links": "Owner approved the proposed author URLs and supplied Jing Wang’s Google Scholar URL on November 20, 2026."
+    }
+  },
+  {
+    "id": "dreamx",
+    "featured_order": 3,
     "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
     "year": 2026,
     "venue": "Preprint",
@@ -186,7 +287,7 @@
   },
   {
     "id": "physcap",
-    "featured_order": 3,
+    "featured_order": 4,
     "title": "PhysCaP: Grounding Code-as-Policy Agent with Physics-Informed Exploration",
     "year": 2026,
     "venue": "Preprint",
@@ -288,7 +389,7 @@
   },
   {
     "id": "ttvidt",
-    "featured_order": 4,
+    "featured_order": 5,
     "title": "TT-VidT: Decoupling the Temporal Axis for Efficient Motion-Centric Video Pretraining",
     "year": 2026,
     "venue": "NeurIPS",
@@ -353,7 +454,7 @@
   },
   {
     "id": "scal3r",
-    "featured_order": 5,
+    "featured_order": 6,
     "title": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
     "year": 2026,
     "venue": "ECCV",
@@ -428,7 +529,7 @@
   },
   {
     "id": "reactvau",
-    "featured_order": 6,
+    "featured_order": 7,
     "title": "ReactVAU: A Slow-Fast Decoupled Framework for Streaming Video Anomaly Understanding",
     "year": 2026,
     "venue": "ECCV",

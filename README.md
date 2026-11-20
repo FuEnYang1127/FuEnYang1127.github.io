@@ -63,12 +63,12 @@ Open <http://127.0.0.1:4173>. Stop with Ctrl+C. An occupied port can be changed 
 }
 ```
 
-Use `featured_order` only for explicitly pinned papers: ThinkWorld = 1, DreamX = 2, PhysCaP = 3,
-TT-VidT = 4, Scal3R = 5 and ReactVAU = 6.
+Use `featured_order` only for explicitly pinned papers: ThinkWorld = 1, MAWAM = 2, DreamX = 3, PhysCaP = 4,
+TT-VidT = 5, Scal3R = 6 and ReactVAU = 7.
 Other papers sort by descending year, with stable input ordering within a year.
 For 2023 and earlier, the active list retains only Efficient Model Personalization
 (ICCV 2023) and Adversarial Teacher-Student (NeurIPS 2021). All other earlier work,
-including 2022, is archived. The current list has 17 papers. There are no topic filter controls.
+including 2022, is archived. The current list has 18 papers. There are no topic filter controls.
 `award` is optional. `Fu-En Yang`, including an optional `*`, is automatically bold.
 Author order must match the original paper.
 
@@ -89,7 +89,7 @@ on October 28, 2026 (arXiv:2610.37666); Code and Model remain pending.
 
 Set `"robotics": true` on robotics-related publications to add the consistent
 outlined-star **Robot Intelligence** highlight next to the conference label.
-The current entries are ThinkWorld, DreamX, PhysCaP, Fast-ThinkAct, GR00T N1.6
+The current entries are ThinkWorld, MAWAM, DreamX, PhysCaP, Fast-ThinkAct, GR00T N1.6
 and ThinkAct. Omit the field for
 other work; it does not change the publication order. Use the same marker for
 future robotics papers instead of creating new badge variants. The owner has

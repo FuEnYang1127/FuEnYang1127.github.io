@@ -41,11 +41,16 @@ pushing; wait for the owner's approval of that preview before publication.
 - Show all currently selected 2024+ papers. For 2023 and earlier, retain only
   `fl` (ICCV 2023, Efficient Model Personalization) and `dgneurips21` (NeurIPS
   2021, Adversarial Teacher-Student). Remove all other older works from the page,
-  including the 2022 paper. Current active selection totals 17 papers. Unselected
+  including the 2022 paper. Current active selection totals 18 papers. Unselected
   entries live in `content/archive/`; original assets remain available.
-- Pin ThinkWorld = 1, DreamX = 2, PhysCaP = 3, TT-VidT = 4, Scal3R = 5,
-  ReactVAU = 6, per the owner's latest ordering.
+- Pin ThinkWorld = 1, MAWAM = 2, DreamX = 3, PhysCaP = 4, TT-VidT = 5, Scal3R = 6,
+  ReactVAU = 7, per the owner's latest ordering.
   Remaining papers sort newest first, preserving input order within each year.
+- MAWAM uses arXiv 2026 and the Robot Intelligence marker. Preserve its approved
+  author URLs; Jing Wang links to https://scholar.google.com/citations?user=cdL5PqgAAAAJ&hl=en.
+  Use the owner-provided staging Project URL until a replacement is authorized.
+  Its official 6.6-second coordinated towel-folding clip retains the complete
+  16:9 frame and source file timeline, with the existing silent-loop controls.
 - ThinkWorld, DreamX and PhysCaP are robotics work and their main-conference
   submissions are under review. Workshop acceptances must be shown as workshops,
   separate from main venues. ThinkWorld: RoboWM and PTA at NeurIPS 2026. PhysCaP:
