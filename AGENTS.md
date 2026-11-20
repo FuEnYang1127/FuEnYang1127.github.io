@@ -46,7 +46,7 @@ pushing; wait for the owner's approval of that preview before publication.
 - Pin ThinkWorld = 1, MAWAM = 2, DreamX = 3, PhysCaP = 4, TT-VidT = 5, Scal3R = 6,
   ReactVAU = 7, per the owner's latest ordering.
   Remaining papers sort newest first, preserving input order within each year.
-- MAWAM uses arXiv 2026 and the Robot Intelligence marker. Preserve its approved
+- MAWAM uses Preprint 2026 and the Robot Intelligence marker. Preserve its approved
   author URLs; Jing Wang links to https://scholar.google.com/citations?user=cdL5PqgAAAAJ&hl=en.
   Use the owner-provided staging Project URL until a replacement is authorized.
   Its official 6.6-second coordinated towel-folding clip retains the complete
