@@ -3,10 +3,10 @@
   "role": "Research Scientist",
   "organization": "NVIDIA Research",
   "url": "https://fuenyang1127.github.io/",
-  "description": "Fu-En Yang is a Research Scientist at NVIDIA Research studying generalizable and agentic robot intelligence through world modeling, world–action modeling, and agentic robotics.",
+  "description": "Fu-En Yang is a Research Scientist at NVIDIA Research advancing generalizable and agentic robot intelligence through robot agents and embodied reasoning, with a focus on self-improvement and zero-shot generalization.",
   "portrait": "assets/media/portrait.webp",
   "bio": [
-    "I am a Research Scientist at <a href=\"https://www.nvidia.com/en-us/research/\">NVIDIA Research</a>, developing generalizable and agentic systems for robot learning and control. My work connects world–action modeling, embodied reasoning, and action to help robots understand physical dynamics, anticipate the consequences of their decisions, and adapt their behavior across tasks and environments.",
+    "I am a Research Scientist at <a href=\"https://www.nvidia.com/en-us/research/\">NVIDIA Research</a>, advancing <strong>generalizable and agentic robot intelligence</strong>. My research interests center on <strong>robot agents and embodied reasoning</strong>, aiming to enable robots to learn from experience, improve autonomously, and achieve zero-shot generalization across tasks and environments.",
     "I received my Ph.D. from <a href=\"https://www.ntu.edu.tw/english/index.html\">National Taiwan University</a> in July 2023, advised by Prof. <a href=\"http://vllab.ee.ntu.edu.tw/ycwang.html\">Yu-Chiang Frank Wang</a>. Previously, I was a research intern at <a href=\"https://research.nvidia.com/labs/twn/\">NVIDIA Research</a> (Feb.–Aug. 2023) and a Ph.D. program researcher at <a href=\"https://aics.asus.com/ai-research-en/\">ASUS AICS</a> (Sep. 2020–Oct. 2022), working on model personalization, vision-language models, and visual transfer learning.",
     "I received my bachelor’s degree in <a href=\"https://web.ee.ntu.edu.tw/eng/\">Electrical Engineering</a> from National Taiwan University in 2018."
   ],
@@ -36,7 +36,7 @@
       "url": "https://github.com/FuEnYang1127"
     }
   ],
-  "research_interest": "My research focuses on <strong>generalizable and agentic robot intelligence</strong>. I study <strong>world modeling and world–action modeling</strong> to understand physical dynamics, predict action outcomes, and reason through imagined futures. By connecting these predictive models with <strong>agentic robotics</strong>, I aim to build robots that plan over long horizons, learn from interaction, and adapt to unfamiliar tasks and environments.",
+  "research_interest": "My research focuses on <strong>generalizable and agentic robot intelligence</strong>. I study how robot agents can integrate perception, world–action modeling, and embodied reasoning to understand how humans solve problems, reason about physical dynamics, and anticipate action outcomes. My goal is to build agents that plan over long horizons, improve through interaction, and achieve zero-shot generalization to new scenes, tasks, and embodiments.",
   "analytics": {
     "enabled": true,
     "provider": "MapMyVisitors",

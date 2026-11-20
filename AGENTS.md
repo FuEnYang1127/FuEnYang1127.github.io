@@ -80,13 +80,18 @@ pushing; wait for the owner's approval of that preview before publication.
   map; retain an accessible section label. Do not restore unavailable ClustrMaps URLs or
   use another site's widget. Never fabricate visitor counts or locations.
 
-The Research Interests paragraph (not the opening biography) must begin: “My research focuses on generalizable
-and agentic robot intelligence.” Explicitly emphasize world modeling, physical
-dynamics and imagined futures, along with world–action modeling and agentic
-robotics in the following text, with three concise bold highlights and no marker
-background. The opening biography should give a substantive summary of predictive models,
-embodied reasoning and robot learning without repeating the same paragraph.
-Do not change the focus back to generic physical AI wording.
+The owner-approved introduction centers on generalizable and agentic robot intelligence,
+with robot agents and embodied reasoning as the research directions and autonomous
+improvement and zero-shot generalization as capabilities. Preserve its two bold phrases.
+The Research Interests paragraph begins “My research focuses on generalizable
+and agentic robot intelligence.” Bold only “generalizable and agentic robot intelligence”
+in this paragraph. Discuss robot agents combining perception, world–action modeling
+and embodied reasoning to understand how humans solve problems, reason about physical
+dynamics and anticipate action outcomes. The goal is long-horizon planning,
+improvement through interaction and zero-shot generalization to new scenes, tasks
+and embodiments. Use zero-shot generalization instead of cross-embodiment terminology.
+The exact approved copy lives in content/site.json; do not restore the earlier
+three-highlight research paragraph or the former biography.
 
 News uses `news_visible_since: "2026-02"`: February 2026 and all newer updates
 remain expanded. Only earlier dates go into Earlier news. Preserve this date
