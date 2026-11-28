@@ -28,7 +28,13 @@ pushing; wait for the owner's approval of that preview before publication.
 - One **Research Interests** paragraph with concise bold key phrases, no colored
   underlines / marker backgrounds. Use Title Case for section headings. No
   “What I work on” heading or research-theme cards.
-- One publication list, **no topic classification or filter buttons**.
+- Selected Publications has three filters: All (default), Robot Intelligence and
+  Multimodal AI. Derive membership from the existing `robotics` boolean: true is
+  Robot Intelligence; every other active publication is Multimodal AI. Keep the
+  approved publication order within each filter. Future entries inherit this rule.
+  Hide the filter controls without JavaScript and keep every paper readable.
+  Pause videos immediately when their cards are hidden; preserve lazy loading,
+  reduced-motion behavior, keyboard operation and direct paper anchors.
 - The owner wants robotics work highlighted consistently, including future papers.
   The owner-approved design uses a green outlined-star “Robot Intelligence” badge beside
   the venue for Fast-ThinkAct (`fast-thinkact`), GR00T N1.6 (`gr16`) and ThinkAct

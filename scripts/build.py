@@ -134,7 +134,8 @@ def publication(pub, site):
     if pub.get('workshops'):
         workshop_links = ' · '.join(anchor(item['label'], item['url']) for item in pub['workshops'])
         workshops = f'<p class="paper-workshops"><span>Workshops:</span> {workshop_links}</p>'
-    return f'''<article class="publication" id="{ident}" aria-labelledby="title-{ident}">
+    category = 'robotics' if pub.get('robotics') else 'multimodal'
+    return f'''<article class="publication" id="{ident}" data-category="{category}" aria-labelledby="title-{ident}">
         <figure class="paper-figure">
           <div class="media-stage">
             {image}

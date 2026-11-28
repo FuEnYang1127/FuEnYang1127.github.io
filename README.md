@@ -68,7 +68,7 @@ TT-VidT = 5, Scal3R = 6 and ReactVAU = 7.
 Other papers sort by descending year, with stable input ordering within a year.
 For 2023 and earlier, the active list retains only Efficient Model Personalization
 (ICCV 2023) and Adversarial Teacher-Student (NeurIPS 2021). All other earlier work,
-including 2022, is archived. The current list has 18 papers. There are no topic filter controls.
+including 2022, is archived. The current list has 18 papers. The three filters are All (default), Robot Intelligence and Multimodal AI.
 `award` is optional. `Fu-En Yang`, including an optional `*`, is automatically bold.
 Author order must match the original paper.
 
@@ -93,7 +93,11 @@ The current entries are ThinkWorld, MAWAM, DreamX, PhysCaP, Fast-ThinkAct, GR00T
 and ThinkAct. Omit the field for
 other work; it does not change the publication order. Use the same marker for
 future robotics papers instead of creating new badge variants. The owner has
-approved this styling.
+approved this styling. The same `robotics` boolean also drives the publication
+filters: true selects Robot Intelligence; omitted/false selects Multimodal AI.
+No second category field needs maintaining. Filtering keeps the existing order,
+pauses hidden demos, and announces the result count to screen readers. With
+JavaScript disabled the controls stay hidden and all papers remain visible.
 
 For video, add `media.video`, `media.poster`, `poster_width`, `poster_height`,
 `video_source` and `video_note`. Prefer short silent MP4/H.264 excerpts with complete

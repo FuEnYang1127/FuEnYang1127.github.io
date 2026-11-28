@@ -19,9 +19,9 @@
   <link rel="icon" href="images/nvidia.png?v=761aa81311" type="image/png">
   <link rel="preload" href="assets/fonts/noto-sans-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/google-sans-latin-bold.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="assets/site.css?v=bda5de1a8b">
+  <link rel="stylesheet" href="assets/site.css?v=a50bbfd71f">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Fu-En Yang", "url": "https://fuenyang1127.github.io/", "image": "https://fuenyang1127.github.io/assets/media/portrait.webp", "jobTitle": "Research Scientist", "worksFor": {"@type": "Organization", "name": "NVIDIA Research"}, "sameAs": ["https://scholar.google.com.tw/citations?user=k6Iz9VoAAAAJ&hl=zh-TW", "https://www.linkedin.com/in/fu-en-yang-77ba7b175/", "https://twitter.com/FuEnYang1", "https://github.com/FuEnYang1127"]}</script>
-  <script src="assets/site.js?v=df2b064f2b" defer></script>
+  <script src="assets/site.js?v=e8cddc947a" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -67,7 +67,13 @@
 
     <section class="section publications-section" id="publications" aria-labelledby="publications-title">
       <div class="section-heading publication-heading"><h2 id="publications-title">Selected Publications</h2><a class="text-link" href="https://scholar.google.com.tw/citations?user=k6Iz9VoAAAAJ&amp;hl=zh-TW" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a></div>
-      <div class="publication-list"><article class="publication" id="thinkworld" aria-labelledby="title-thinkworld">
+      <div class="publication-filters" role="group" aria-label="Filter publications" hidden>
+        <button class="publication-filter" type="button" data-filter="all" aria-pressed="true" aria-controls="publication-list">All</button>
+        <button class="publication-filter" type="button" data-filter="robotics" aria-pressed="false" aria-controls="publication-list">Robot Intelligence</button>
+        <button class="publication-filter" type="button" data-filter="multimodal" aria-pressed="false" aria-controls="publication-list">Multimodal AI</button>
+      </div>
+      <p class="sr-only" id="publication-filter-status" role="status" aria-live="polite" aria-atomic="true"></p>
+      <div class="publication-list" id="publication-list"><article class="publication" id="thinkworld" data-category="robotics" aria-labelledby="title-thinkworld">
         <figure class="paper-figure">
           <div class="media-stage">
             <img src="assets/media/thinkworld-poster.webp" alt="ThinkWorld real-robot demonstration: opening an oven, retrieving a crown, and placing it on a bear." width="800" height="450" loading="lazy" decoding="async">
@@ -87,7 +93,7 @@
           <nav class="paper-links" aria-label="Resources for ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning"><a class="paper-link" href="https://arxiv.org/pdf/2610.37666" target="_blank" rel="noopener noreferrer" >PDF</a><a class="paper-link" href="https://arxiv.org/abs/2610.37666" target="_blank" rel="noopener noreferrer" >arXiv</a><a class="paper-link" href="https://thinkworld-project.github.io/" target="_blank" rel="noopener noreferrer" >Project</a></nav>
         </div>
       </article>
-<article class="publication" id="dreamx" aria-labelledby="title-dreamx">
+<article class="publication" id="dreamx" data-category="robotics" aria-labelledby="title-dreamx">
         <figure class="paper-figure">
           <div class="media-stage">
             <img src="assets/media/dreamx-poster.webp" alt="DreamX demonstrates cross-embodiment motion transfer and robot execution of actions inferred from human videos." width="800" height="450" loading="lazy" decoding="async">
@@ -107,7 +113,7 @@
           <nav class="paper-links" aria-label="Resources for DreamX: Video Diffusion Model is a Universal Latent Action Learner"><a class="paper-link" href="https://arxiv.org/pdf/2611.05377" target="_blank" rel="noopener noreferrer" >PDF</a><a class="paper-link" href="https://arxiv.org/abs/2611.05377" target="_blank" rel="noopener noreferrer" >arXiv</a><a class="paper-link" href="https://cvlab-kaist.github.io/DreamX/" target="_blank" rel="noopener noreferrer" >Project</a></nav>
         </div>
       </article>
-<article class="publication" id="mawam" aria-labelledby="title-mawam">
+<article class="publication" id="mawam" data-category="robotics" aria-labelledby="title-mawam">
         <figure class="paper-figure">
           <div class="media-stage">
             <img src="assets/media/mawam-poster.webp" alt="Two Galaxea R1 Pro robots jointly lift, align and fold a bath towel using MAWAM." width="800" height="450" loading="lazy" decoding="async">
@@ -127,7 +133,7 @@
           <nav class="paper-links" aria-label="Resources for MAWAM: A Multi-Agent World-Action Model for Coordinated Manipulation"><a class="paper-link" href="https://arxiv.org/pdf/2611.25105" target="_blank" rel="noopener noreferrer" >PDF</a><a class="paper-link" href="https://arxiv.org/abs/2611.25105" target="_blank" rel="noopener noreferrer" >arXiv</a><a class="paper-link" href="https://research-staging.nvidia.com/labs/lpr/mawam/" target="_blank" rel="noopener noreferrer" >Project</a></nav>
         </div>
       </article>
-<article class="publication" id="physcap" aria-labelledby="title-physcap">
+<article class="publication" id="physcap" data-category="robotics" aria-labelledby="title-physcap">
         <figure class="paper-figure">
           <div class="media-stage">
             <img src="assets/media/physcap-poster.webp" alt="PhysCaP robot demonstrations that explore object mass and stiffness through physical interaction." width="800" height="450" loading="lazy" decoding="async">
@@ -147,7 +153,7 @@
           <nav class="paper-links" aria-label="Resources for PhysCaP: Grounding Code-as-Policy Agent with Physics-Informed Exploration"><a class="paper-link" href="https://arxiv.org/pdf/2608.21031" target="_blank" rel="noopener noreferrer" >PDF</a><a class="paper-link" href="https://arxiv.org/abs/2608.21031" target="_blank" rel="noopener noreferrer" >arXiv</a><a class="paper-link" href="https://physcap.github.io/" target="_blank" rel="noopener noreferrer" >Project</a><a class="paper-link" href="https://github.com/physcap/physcap" target="_blank" rel="noopener noreferrer" >Code</a></nav>
         </div>
       </article>
-<article class="publication" id="ttvidt" aria-labelledby="title-ttvidt">
+<article class="publication" id="ttvidt" data-category="multimodal" aria-labelledby="title-ttvidt">
         <figure class="paper-figure">
           <div class="media-stage">
             <a class="figure-open" href="assets/media/ttvidt.webp" target="_blank" rel="noopener noreferrer" aria-label="Enlarge research figure for TT-VidT: Decoupling the Temporal Axis for Efficient Motion-Centric Video Pretraining"><img src="assets/media/ttvidt.webp" alt="TT-VidT teaser comparing independent per-frame encoders, global 3D mixing, and an explicit Temporal Transfer pathway for motion tokens." width="1600" height="467" loading="lazy" decoding="async"></a>
@@ -164,7 +170,7 @@
           <nav class="paper-links" aria-label="Resources for TT-VidT: Decoupling the Temporal Axis for Efficient Motion-Centric Video Pretraining"><a class="paper-link" href="https://arxiv.org/pdf/2609.33419" target="_blank" rel="noopener noreferrer" >PDF</a><a class="paper-link" href="https://arxiv.org/abs/2609.33419" target="_blank" rel="noopener noreferrer" >arXiv</a><a class="paper-link" href="https://kohakublueleaf.github.io/TTVidT/" target="_blank" rel="noopener noreferrer" >Project</a><a class="paper-link" href="https://github.com/KohakuBlueleaf/TTVidT" target="_blank" rel="noopener noreferrer" >Code</a></nav>
         </div>
       </article>
-<article class="publication" id="scal3r" aria-labelledby="title-scal3r">
+<article class="publication" id="scal3r" data-category="multimodal" aria-labelledby="title-scal3r">
         <figure class="paper-figure">
           <div class="media-stage">
             <img src="assets/media/scal3r-poster.webp" alt="Scal3R: online 3D reconstruction and estimated trajectory on the KITTI 04 driving sequence." width="640" height="360" loading="lazy" decoding="async">
@@ -184,7 +190,7 @@
           <nav class="paper-links" aria-label="Resources for Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction"><a class="paper-link" href="https://arxiv.org/pdf/2609.04201" target="_blank" rel="noopener noreferrer" >PDF</a><a class="paper-link" href="https://arxiv.org/abs/2609.04201" target="_blank" rel="noopener noreferrer" >arXiv</a><a class="paper-link" href="https://linjohnss.github.io/scal3r/" target="_blank" rel="noopener noreferrer" >Project</a><a class="paper-link" href="https://github.com/NVlabs/scal3r" target="_blank" rel="noopener noreferrer" >Code</a></nav>
         </div>
       </article>
-<article class="publication" id="reactvau" aria-labelledby="title-reactvau">
+<article class="publication" id="reactvau" data-category="multimodal" aria-labelledby="title-reactvau">
         <figure class="paper-figure">
           <div class="media-stage">
             <a class="figure-open" href="assets/media/reactvau.webp" target="_blank" rel="noopener noreferrer" aria-label="Enlarge research figure for ReactVAU: A Slow-Fast Decoupled Framework for Streaming Video Anomaly Understanding"><img src="assets/media/reactvau.webp" alt="ReactVAU teaser: fast streaming anomaly detection preserves important evidence in persistent memory and selectively activates slow reasoning." width="1650" height="862" loading="lazy" decoding="async"></a>
@@ -201,7 +207,7 @@
           <nav class="paper-links" aria-label="Resources for ReactVAU: A Slow-Fast Decoupled Framework for Streaming Video Anomaly Understanding"><a class="paper-link" href="https://arxiv.org/pdf/2609.07941" target="_blank" rel="noopener noreferrer" >PDF</a><a class="paper-link" href="https://arxiv.org/abs/2609.07941" target="_blank" rel="noopener noreferrer" >arXiv</a><a class="paper-link" href="https://huiyuiui.github.io/ReactVAU/" target="_blank" rel="noopener noreferrer" >Project</a><a class="paper-link" href="https://github.com/huiyuiui/ReactVAU-code" target="_blank" rel="noopener noreferrer" >Code</a></nav>
         </div>
       </article>
-<article class="publication" id="fast-thinkact" aria-labelledby="title-fast-thinkact">
+<article class="publication" id="fast-thinkact" data-category="robotics" aria-labelledby="title-fast-thinkact">
         <figure class="paper-figure">
           <div class="media-stage">
             <a class="figure-open" href="assets/media/fast-thinkact.webp" target="_blank" rel="noopener noreferrer" aria-label="Enlarge research figure for Fast-ThinkAct: Efficient Vision-Language-Action Reasoning via Verbalizable Latent Planning"><img src="assets/media/fast-thinkact.webp" alt="Fast-ThinkAct teaser: six continuous reasoning tokens replace approximately 250 textual tokens; the efficiency plot highlights 9.3× faster inference." width="1650" height="989" loading="lazy" decoding="async"></a>
@@ -218,7 +224,7 @@
           <nav class="paper-links" aria-label="Resources for Fast-ThinkAct: Efficient Vision-Language-Action Reasoning via Verbalizable Latent Planning"><a class="paper-link" href="https://arxiv.org/pdf/2601.09708" target="_blank" rel="noopener noreferrer" >PDF</a><a class="paper-link" href="https://arxiv.org/abs/2601.09708" target="_blank" rel="noopener noreferrer" >arXiv</a><a class="paper-link" href="https://jasper0314-huang.github.io/fast-thinkact/" target="_blank" rel="noopener noreferrer" >Project</a></nav>
         </div>
       </article>
-<article class="publication" id="gr16" aria-labelledby="title-gr16">
+<article class="publication" id="gr16" data-category="robotics" aria-labelledby="title-gr16">
         <figure class="paper-figure">
           <div class="media-stage">
             <img src="assets/media/gr16-poster.webp" alt="Official GR00T N1.6 policy rollout: a humanoid robot moves a cart and reaches toward shelves." width="800" height="450" loading="lazy" decoding="async">
@@ -238,7 +244,7 @@
           <nav class="paper-links" aria-label="Resources for GR00T N1.6: An Improved Open Foundation Model for Generalist Humanoid Robots"><a class="paper-link" href="https://research.nvidia.com/labs/gear/gr00t-n1_6/" target="_blank" rel="noopener noreferrer" >Project</a><a class="paper-link" href="https://github.com/NVIDIA/Isaac-GR00T/tree/main" target="_blank" rel="noopener noreferrer" >Code</a></nav>
         </div>
       </article>
-<article class="publication" id="thinkact" aria-labelledby="title-thinkact">
+<article class="publication" id="thinkact" data-category="robotics" aria-labelledby="title-thinkact">
         <figure class="paper-figure">
           <div class="media-stage">
             <a class="figure-open" href="assets/media/thinkact.webp" target="_blank" rel="noopener noreferrer" aria-label="Enlarge research figure for ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning"><img src="assets/media/thinkact.webp" alt="ThinkAct overview: action-aligned visual feedback reinforces reasoning for few-shot adaptation, long-horizon planning, and self-correction." width="1459" height="497" loading="lazy" decoding="async"></a>
@@ -255,7 +261,7 @@
           <nav class="paper-links" aria-label="Resources for ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning"><a class="paper-link" href="https://arxiv.org/pdf/2507.16815" target="_blank" rel="noopener noreferrer" >PDF</a><a class="paper-link" href="https://arxiv.org/abs/2507.16815" target="_blank" rel="noopener noreferrer" >arXiv</a><a class="paper-link" href="https://jasper0314-huang.github.io/thinkact-vla/" target="_blank" rel="noopener noreferrer" >Project</a></nav>
         </div>
       </article>
-<article class="publication" id="longsplat" aria-labelledby="title-longsplat">
+<article class="publication" id="longsplat" data-category="multimodal" aria-labelledby="title-longsplat">
         <figure class="paper-figure">
           <div class="media-stage">
             <img src="assets/media/longsplat-poster.webp" alt="LongSplat — full-frame demonstration from the official project video." width="800" height="450" loading="lazy" decoding="async">
@@ -275,7 +281,7 @@
           <nav class="paper-links" aria-label="Resources for LongSplat: Robust Unposed 3D Gaussian Splatting for Casual Long Videos"><a class="paper-link" href="https://arxiv.org/pdf/2508.14041" target="_blank" rel="noopener noreferrer" >PDF</a><a class="paper-link" href="https://arxiv.org/abs/2508.14041" target="_blank" rel="noopener noreferrer" >arXiv</a><a class="paper-link" href="https://linjohnss.github.io/longsplat/" target="_blank" rel="noopener noreferrer" >Project</a><a class="paper-link" href="https://github.com/NVlabs/LongSplat" target="_blank" rel="noopener noreferrer" >Code</a></nav>
         </div>
       </article>
-<article class="publication" id="videomage" aria-labelledby="title-videomage">
+<article class="publication" id="videomage" data-category="multimodal" aria-labelledby="title-videomage">
         <figure class="paper-figure">
           <div class="media-stage">
             <img src="assets/media/videomage-poster.webp" alt="VideoMage — full-frame demonstration from the official project video." width="800" height="356" loading="lazy" decoding="async">
@@ -295,7 +301,7 @@
           <nav class="paper-links" aria-label="Resources for VideoMage: Multi-Subject and Motion Customization of Text-to-Video Diffusion Models"><a class="paper-link" href="https://arxiv.org/pdf/2503.21781" target="_blank" rel="noopener noreferrer" >PDF</a><a class="paper-link" href="https://arxiv.org/abs/2503.21781" target="_blank" rel="noopener noreferrer" >arXiv</a><a class="paper-link" href="https://jasper0314-huang.github.io/videomage-customization/" target="_blank" rel="noopener noreferrer" >Project</a></nav>
         </div>
       </article>
-<article class="publication" id="receler" aria-labelledby="title-receler">
+<article class="publication" id="receler" data-category="multimodal" aria-labelledby="title-receler">
         <figure class="paper-figure">
           <div class="media-stage">
             <a class="figure-open" href="assets/media/receler.webp" target="_blank" rel="noopener noreferrer" aria-label="Enlarge research figure for Receler: Reliable Concept Erasing of Text-to-Image Diffusion Models via Lightweight Erasers"><img src="assets/media/receler.webp" alt="Receler: Reliable Concept Erasing of Text-to-Image Diffusion Models via Lightweight Erasers — complete research figure." width="1100" height="841" loading="lazy" decoding="async"></a>
@@ -312,7 +318,7 @@
           <nav class="paper-links" aria-label="Resources for Receler: Reliable Concept Erasing of Text-to-Image Diffusion Models via Lightweight Erasers"><a class="paper-link" href="https://arxiv.org/pdf/2311.17717" target="_blank" rel="noopener noreferrer" >PDF</a><a class="paper-link" href="https://arxiv.org/abs/2311.17717" target="_blank" rel="noopener noreferrer" >arXiv</a><a class="paper-link" href="https://jasper0314-huang.github.io/receler-concept-erasing/" target="_blank" rel="noopener noreferrer" >Project</a><a class="paper-link" href="https://github.com/jasper0314-huang/Receler" target="_blank" rel="noopener noreferrer" >Code</a></nav>
         </div>
       </article>
-<article class="publication" id="select" aria-labelledby="title-select">
+<article class="publication" id="select" data-category="multimodal" aria-labelledby="title-select">
         <figure class="paper-figure">
           <div class="media-stage">
             <a class="figure-open" href="assets/media/select.webp" target="_blank" rel="noopener noreferrer" aria-label="Enlarge research figure for Select and Distill: Selective Dual-Teacher Knowledge Transfer for Continual Learning on Vision-Language Models"><img src="assets/media/select.webp" alt="Select and Distill: Selective Dual-Teacher Knowledge Transfer for Continual Learning on Vision-Language Models — complete research figure." width="1100" height="533" loading="lazy" decoding="async"></a>
@@ -329,7 +335,7 @@
           <nav class="paper-links" aria-label="Resources for Select and Distill: Selective Dual-Teacher Knowledge Transfer for Continual Learning on Vision-Language Models"><a class="paper-link" href="https://arxiv.org/pdf/2403.09296" target="_blank" rel="noopener noreferrer" >PDF</a><a class="paper-link" href="https://arxiv.org/abs/2403.09296" target="_blank" rel="noopener noreferrer" >arXiv</a><a class="paper-link" href="https://chuyu.org/research/snd/" target="_blank" rel="noopener noreferrer" >Project</a><a class="paper-link" href="https://github.com/chu0802/SnD" target="_blank" rel="noopener noreferrer" >Code</a></nav>
         </div>
       </article>
-<article class="publication" id="rapper" aria-labelledby="title-rapper">
+<article class="publication" id="rapper" data-category="multimodal" aria-labelledby="title-rapper">
         <figure class="paper-figure">
           <div class="media-stage">
             <a class="figure-open" href="assets/media/rapper.webp" target="_blank" rel="noopener noreferrer" aria-label="Enlarge research figure for RAPPER: Reinforced Rationale-Prompted Paradigm for Natural Language Explanation in Visual Question Answering"><img src="assets/media/rapper.webp" alt="RAPPER: Reinforced Rationale-Prompted Paradigm for Natural Language Explanation in Visual Question Answering — complete research figure." width="1100" height="709" loading="lazy" decoding="async"></a>
@@ -346,7 +352,7 @@
           <nav class="paper-links" aria-label="Resources for RAPPER: Reinforced Rationale-Prompted Paradigm for Natural Language Explanation in Visual Question Answering"><a class="paper-link" href="https://openreview.net/pdf?id=bshfchPM9H" target="_blank" rel="noopener noreferrer" >PDF</a></nav>
         </div>
       </article>
-<article class="publication" id="fedlgt" aria-labelledby="title-fedlgt">
+<article class="publication" id="fedlgt" data-category="multimodal" aria-labelledby="title-fedlgt">
         <figure class="paper-figure">
           <div class="media-stage">
             <a class="figure-open" href="assets/media/fedlgt.webp" target="_blank" rel="noopener noreferrer" aria-label="Enlarge research figure for Language-Guided Transformer for Federated Multi-Label Classification"><img src="assets/media/fedlgt.webp" alt="Language-Guided Transformer for Federated Multi-Label Classification — complete research figure." width="963" height="900" loading="lazy" decoding="async"></a>
@@ -363,7 +369,7 @@
           <nav class="paper-links" aria-label="Resources for Language-Guided Transformer for Federated Multi-Label Classification"><a class="paper-link" href="https://arxiv.org/pdf/2312.07165.pdf" target="_blank" rel="noopener noreferrer" >PDF</a><a class="paper-link" href="https://arxiv.org/abs/2312.07165" target="_blank" rel="noopener noreferrer" >arXiv</a><a class="paper-link" href="https://jack24658735.github.io/fedlgt/" target="_blank" rel="noopener noreferrer" >Project</a><a class="paper-link" href="https://github.com/Jack24658735/FedLGT" target="_blank" rel="noopener noreferrer" >Code</a></nav>
         </div>
       </article>
-<article class="publication" id="fl" aria-labelledby="title-fl">
+<article class="publication" id="fl" data-category="multimodal" aria-labelledby="title-fl">
         <figure class="paper-figure">
           <div class="media-stage">
             <a class="figure-open" href="assets/media/fl.webp" target="_blank" rel="noopener noreferrer" aria-label="Enlarge research figure for Efficient Model Personalization in Federated Learning via Client-Specific Prompt Generation"><img src="assets/media/fl.webp" alt="Efficient Model Personalization in Federated Learning via Client-Specific Prompt Generation — complete research figure." width="1003" height="900" loading="lazy" decoding="async"></a>
@@ -380,7 +386,7 @@
           <nav class="paper-links" aria-label="Resources for Efficient Model Personalization in Federated Learning via Client-Specific Prompt Generation"><a class="paper-link" href="https://openaccess.thecvf.com/content/ICCV2023/papers/Yang_Efficient_Model_Personalization_in_Federated_Learning_via_Client-Specific_Prompt_Generation_ICCV_2023_paper.pdf" target="_blank" rel="noopener noreferrer" >PDF</a><a class="paper-link" href="https://arxiv.org/abs/2308.15367" target="_blank" rel="noopener noreferrer" >arXiv</a><a class="paper-link" href="data/fl_poster.pdf" target="_blank" rel="noopener noreferrer" >Poster</a></nav>
         </div>
       </article>
-<article class="publication" id="dgneurips21" aria-labelledby="title-dgneurips21">
+<article class="publication" id="dgneurips21" data-category="multimodal" aria-labelledby="title-dgneurips21">
         <figure class="paper-figure">
           <div class="media-stage">
             <a class="figure-open" href="assets/media/dgneurips21.webp" target="_blank" rel="noopener noreferrer" aria-label="Enlarge research figure for Adversarial Teacher-Student Representation Learning for Domain Generalization"><img src="assets/media/dgneurips21.webp" alt="Adversarial Teacher-Student Representation Learning for Domain Generalization — complete research figure." width="1100" height="881" loading="lazy" decoding="async"></a>
