@@ -43,7 +43,7 @@ pushing; wait for the owner's approval of that preview before publication.
   2021, Adversarial Teacher-Student). Remove all other older works from the page,
   including the 2022 paper. Current active selection totals 18 papers. Unselected
   entries live in `content/archive/`; original assets remain available.
-- Pin ThinkWorld = 1, MAWAM = 2, DreamX = 3, PhysCaP = 4, TT-VidT = 5, Scal3R = 6,
+- Pin ThinkWorld = 1, DreamX = 2, MAWAM = 3, PhysCaP = 4, TT-VidT = 5, Scal3R = 6,
   ReactVAU = 7, per the owner's latest ordering.
   Remaining papers sort newest first, preserving input order within each year.
 - MAWAM uses Preprint 2026 and the Robot Intelligence marker. Preserve its approved

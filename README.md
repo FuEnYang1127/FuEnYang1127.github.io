@@ -63,7 +63,7 @@ Open <http://127.0.0.1:4173>. Stop with Ctrl+C. An occupied port can be changed 
 }
 ```
 
-Use `featured_order` only for explicitly pinned papers: ThinkWorld = 1, MAWAM = 2, DreamX = 3, PhysCaP = 4,
+Use `featured_order` only for explicitly pinned papers: ThinkWorld = 1, DreamX = 2, MAWAM = 3, PhysCaP = 4,
 TT-VidT = 5, Scal3R = 6 and ReactVAU = 7.
 Other papers sort by descending year, with stable input ordering within a year.
 For 2023 and earlier, the active list retains only Efficient Model Personalization

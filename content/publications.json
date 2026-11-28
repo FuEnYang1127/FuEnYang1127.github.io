@@ -92,7 +92,7 @@
   },
   {
     "id": "mawam",
-    "featured_order": 2,
+    "featured_order": 3,
     "title": "MAWAM: A Multi-Agent World-Action Model for Coordinated Manipulation",
     "venue": "Preprint",
     "year": 2026,
@@ -193,7 +193,7 @@
   },
   {
     "id": "dreamx",
-    "featured_order": 3,
+    "featured_order": 2,
     "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
     "year": 2026,
     "venue": "Preprint",
