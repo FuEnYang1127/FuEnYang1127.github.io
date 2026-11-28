@@ -92,9 +92,11 @@ pushing; wait for the owner's approval of that preview before publication.
   use another site's widget. Never fabricate visitor counts or locations.
 
 The owner-approved introduction centers on generalizable and agentic robot intelligence,
-with robot agents and embodied reasoning as the research directions and autonomous
+with robot agents, world–action modeling and embodied reasoning as the research directions and autonomous
 improvement and zero-shot generalization as capabilities. In the introduction, bold only
-“generalizable and agentic robot intelligence”; keep “robot agents and embodied reasoning” plain.
+“generalizable and agentic robot intelligence”; keep the research-direction list plain.
+The introduction says “learn from experience across embodiments” to express the
+owner’s requested cross-embodiment experience.
 The Research Interests paragraph begins “My research focuses on generalizable
 and agentic robot intelligence.” In this paragraph, bold “generalizable and agentic robot intelligence”,
 “long horizons”, “self-improve” and “zero-shot generalization”. Use “self-improve through interaction”. Discuss robot agents combining perception, world–action modeling
