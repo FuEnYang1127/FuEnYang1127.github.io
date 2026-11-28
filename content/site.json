@@ -36,7 +36,7 @@
       "url": "https://github.com/FuEnYang1127"
     }
   ],
-  "research_interest": "My research focuses on <strong>generalizable and agentic robot intelligence</strong>. I study how robot agents can integrate perception, world–action modeling, and embodied reasoning to understand how humans solve problems, reason about physical dynamics, and anticipate action outcomes. My goal is to build agents that plan over <strong>long horizons</strong>, <strong>self-improve</strong> through interaction, and achieve <strong>zero-shot generalization</strong> to new scenes, tasks, and embodiments.",
+  "research_interest": "My research focuses on <strong>generalizable and agentic robot intelligence</strong>. I study how robot agents can integrate perception, world–action modeling, and embodied reasoning to understand how humans solve problems, reason about physical dynamics, and anticipate action outcomes. My goal is to build agents that learn from experience across embodiments, plan over <strong>long horizons</strong>, <strong>self-improve</strong> through interaction, and achieve <strong>zero-shot generalization</strong> to new scenes, tasks, and embodiments.",
   "analytics": {
     "enabled": true,
     "provider": "MapMyVisitors",

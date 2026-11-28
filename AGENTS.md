@@ -101,9 +101,11 @@ The Research Interests paragraph begins “My research focuses on generalizable
 and agentic robot intelligence.” In this paragraph, bold “generalizable and agentic robot intelligence”,
 “long horizons”, “self-improve” and “zero-shot generalization”. Use “self-improve through interaction”. Discuss robot agents combining perception, world–action modeling
 and embodied reasoning to understand how humans solve problems, reason about physical
-dynamics and anticipate action outcomes. The goal is long-horizon planning,
-improvement through interaction and zero-shot generalization to new scenes, tasks
-and embodiments. Use zero-shot generalization instead of cross-embodiment terminology.
+dynamics and anticipate action outcomes. The goal is learning from experience across
+embodiments, long-horizon planning, improvement through interaction and zero-shot
+generalization to new scenes, tasks and embodiments. Keep learning across embodiments
+explicit in both the introduction and Research Interests; use zero-shot generalization
+for the target generalization capability.
 The exact approved copy lives in content/site.json; do not restore the earlier
 three-highlight research paragraph or the former biography.
 
