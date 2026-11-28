@@ -349,11 +349,13 @@
       {
         "label": "Project",
         "url": "https://physcap.github.io/"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/physcap/physcap"
       }
     ],
-    "pending_links": [
-      "Code"
-    ],
+    "pending_links": [],
     "workshops": [
       {
         "label": "Robot Learning @ NeurIPS 2026",
@@ -384,7 +386,8 @@
       "project": "https://physcap.github.io/",
       "paper": "https://arxiv.org/abs/2608.21031",
       "workshop_acceptance": "Project page explicitly lists the 8th Robot Learning Workshop at NeurIPS 2026 and the Workshop on Agentic Robotics at CoRL 2026.",
-      "main_conference_status": "Owner confirmed main-conference submission is under review."
+      "main_conference_status": "Owner confirmed main-conference submission is under review.",
+      "code": "https://github.com/physcap/physcap"
     }
   },
   {
